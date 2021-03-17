@@ -26,10 +26,13 @@ CREATE TABLE [dbo].[FactEstacionamiento](
 	[DiaEntrada] [varchar](50) NULL,
 	[DiaSalida] [varchar](50) NULL,
 	[CantidadMinutos] [int] NULL,
+	[DiaRestriccion] [varchar](50) NULL,
 	[EstratoDiaRestriccion] [varchar](50) NULL,
 	[EstratoCantidadNumeros] [varchar](50) NULL,
 	[EstratoHoraEntrada] [varchar](50) NULL,
 	[EstratoHoraSalida] [varchar](50) NULL,
+	[EstratoDiaEntrada] [varchar](50) NULL,
+	[EstratoDiaSalida] [varchar](50) NULL,
 	[EstratoGanancia] [varchar](50) NULL
 ) ON [PRIMARY]
 GO

@@ -3,8 +3,10 @@ use CuboParqueo   if
 
 use ExamenAnalisis
   
-	SELECT  p.IDParqueo, 
-	p.NombreDistrito +' - '+ p.NombreCanton +' - '+ p.NombreProvincia as ParqueoInfo
+	SELECT  q.IDParqueo,
+	d.Descripcion as NombreDistrito,
+	c.Descripcion as NombreCanton,
+	p.Descripcion as NombreProvincia
 	
-  into CuboParqueo.dbo.DimParqueo FROM  [ExamenAnalisis].dbo.Parqueo p
+  into CuboParqueo.dbo.DimParqueo FROM [ExamenAnalisis].dbo.Parqueo q, [ExamenAnalisis].dbo.Distrito d,  [ExamenAnalisis].dbo.Canton c, [ExamenAnalisis].dbo.Provincia p
 
