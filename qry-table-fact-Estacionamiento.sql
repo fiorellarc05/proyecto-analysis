@@ -9,11 +9,11 @@ SELECT TarifaBase, Ganancia, Mantenimiento, ImpVentas, TotalACobrar,
 DATEPART(HOUR, FechaHoraIngreso) as HoraEntrada, DATEPART(DAY, FechaHoraIngreso) as DiaEntrada, 
 DATEPART(HOUR, FechaHoraSalida) as HoraSalida, DATEPART(DAY, FechaHoraSalida) as DiaSalida,  
 DATEDIFF(mi,FechaHoraSalida,FechaHoraIngreso) as CantidadMinutos,
-/*HoraEntrada as EstratoHoraEntrada,
-HoraSalida as EstratoHoraSalida,
-DiaEntrada as EstratoDiaEntrada,
-DiaSalida as EstratoDiaSalida,
-CantidadMinutos as Estrato,*/
+DATEPART(HOUR, FechaHoraIngreso) as EstratoHoraEntrada, 
+DATEPART(HOUR, FechaHoraSalida) as EstratoHoraSalida,
+DATEPART(DAY, FechaHoraIngreso) as EstratoDiaEntrada,
+DATEPART(DAY, FechaHoraSalida) as EstratoDiaSalida,
+DATEDIFF(mi,FechaHoraSalida,FechaHoraIngreso) as EstratoCantMinutos,
 Ganancia as EstratoGanacia 
 
 into FactEstacionamiento FROM ExamenAnalisis.dbo.Estacionamiento
