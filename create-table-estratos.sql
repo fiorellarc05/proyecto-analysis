@@ -58,23 +58,23 @@ begin tran
 	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
 		(11100, 'HoraEntrada', 12, 4.59, 'Madrugada:  de las 12 am hasta antes de las 5 am.');
 	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
-		(11200, 'HoraEntrada', 5, 11.59, 'Mañana:  desde las 5 am hasta antes de las 12 pm.');
+		(11200, 'HoraEntrada', 5, 11.59, 'Mañana:  de las 5 am hasta  las 12 pm.');
 	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
-		(11300, 'HoraEntrada', 12, 13.59, 'Mediodía desde las 12 hasta antes de las 2 pm.');
+		(11300, 'HoraEntrada', 12, 13.59, 'Mediodia: de las 12 hasta las 2 pm.');
 	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
-		(11400, 'HoraEntrada', 14, 16.59, 'Tarde:  desde las 2 pm hasta antes de las 7 pm.');
+		(11400, 'HoraEntrada', 14, 16.59, 'Tarde:  de las 2 pm hasta antes de las 7 pm.');
 	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
-		(11500, 'HoraEntrada', 17, 23.59, 'Noche:  desde las 7 pm hasta antes de las 12 am.');
+		(11500, 'HoraEntrada', 17, 23.59, 'Noche:  de las 7 pm hasta antes de las 12 am.');
 		insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
 		(511100, 'HoraSalida', 12, 4.59, 'Madrugada:  de las 12 am hasta antes de las 5 am.');
 	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
-		(511200, 'HoraSalida', 5, 11.59, 'Mañana:  desde las 5 am hasta antes de las 12 pm.');
+		(511200, 'HoraSalida', 5, 11.59, 'Mañana:  de las 5 am hasta antes de las 12 pm.');
 	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
-		(511300, 'HoraSalida', 12, 13.59, 'Mediodía desde las 12 hasta antes de las 2 pm.');
+		(511300, 'HoraSalida', 12, 13.59, 'Mediodía de las 12 hasta antes de las 2 pm.');
 	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
-		(511400, 'HoraSalida', 14, 16.59, 'Tarde:  desde las 2 pm hasta antes de las 7 pm.');
+		(511400, 'HoraSalida', 14, 16.59, 'Tarde:  de las 2 pm hasta antes de las 7 pm.');
 	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
-		(511500, 'HoraSalida', 17, 23.59, 'Noche:  desde las 7 pm hasta antes de las 12 am.');
+		(511500, 'HoraSalida', 17, 23.59, 'Noche:  de las 7 pm hasta antes de las 12 am.');
 	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
 		(111100, 'Ganancia', -99999999999, 0, 'Inválido: valor negativo');
 	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
