@@ -1,22 +1,27 @@
+
 use CuboParqueo
-IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[FactEstacionamiento]') AND type in (N'U'))
-DROP TABLE [dbo].[FactEstacionamiento]
+if
+	(OBJECT_ID ('dbo.FactEstacionamiento', 'U') > 0) drop table FactEstacionamiento; 
 GO
 
+
 SELECT TarifaBase, Ganancia, Mantenimiento, ImpVentas, TotalACobrar, 
-DATEPART(HOUR, FechaHoraIngreso) as HoraEntrada, DATEPART(DAY, FechaHoraIngreso) as DiaEntrada,
-DATEPART(HOUR, FechaHoraSalida) as HoraSalida, DATEPART(DAY, FechaHoraSalida) as DiaSalida, 
+DATEPART(HOUR, FechaHoraIngreso) as HoraEntrada, DATEPART(DAY, FechaHoraIngreso) as DiaEntrada, 
+DATEPART(HOUR, FechaHoraSalida) as HoraSalida, DATEPART(DAY, FechaHoraSalida) as DiaSalida,  
 DATEDIFF(mi,FechaHoraSalida,FechaHoraIngreso) as CantidadMinutos,
-HoraEntrada as EstratoHoraEntrada,
+/*HoraEntrada as EstratoHoraEntrada,
 HoraSalida as EstratoHoraSalida,
 DiaEntrada as EstratoDiaEntrada,
 DiaSalida as EstratoDiaSalida,
-Ganancia as EstratoGancia
-into FactEstacionamiento FROM  ExamenAnalisis.dbo.Estacionamiento ;
- 
+CantidadMinutos as Estrato,*/
+Ganancia as EstratoGanacia 
+
+into FactEstacionamiento FROM ExamenAnalisis.dbo.Estacionamiento
+
+
 
 begin tran 
-update FactEstacionamiento set EstratoGancia = ( select e.Descripcion from ParqueoEstratos e 
+update FactEstacionamiento set EstratoGanacia = ( select e.Descripcion from ParqueoEstratos e 
 where Ganancia >= e.LimiteInferior and Ganancia < e.LimiteSuperior and e.TipoEstrato = 'Ganacia' );   
 commit;
 
@@ -38,6 +43,11 @@ commit;
 begin tran 
 update FactEstacionamiento set EstratoDiaSalida = ( select e.Descripcion from ParqueoEstratos e 
 where DiaSalida	>= e.LimiteInferior and DiaSalida < e.LimiteSuperior and e.TipoEstrato = 'DiaRestriccion' );   
+commit;
+
+begin tran 
+update FactEstacionamiento set EstratoCantMinutos = ( select e.Descripcion from ParqueoEstratos e 
+where CantidadMinutos	>= e.LimiteInferior and CantidadMinutos < e.LimiteSuperior and e.TipoEstrato = 'CantMinutos' );   
 commit;
 
 
