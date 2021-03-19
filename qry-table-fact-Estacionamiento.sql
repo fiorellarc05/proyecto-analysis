@@ -6,21 +6,22 @@ GO
 SELECT 
 TarifaBase, Ganancia, Mantenimiento, ImpVentas, TotalACobrar,
 DATEPART(HOUR, FechaHoraIngreso) as HoraEntrada, CONVERT(varchar(50), FechaHoraIngreso) as EstratoHoraEntrada,
-FORMAT(FechaHoraIngreso,'dd/MM') as DiaEntrada, CONVERT(varchar(50),FORMAT(FechaHoraIngreso,'dd/MM')) as Feriado1, 
+FORMAT(FechaHoraIngreso,'dd/MM') as DiaEntrada,  CONVERT(varchar(50),FORMAT(FechaHoraIngreso,'dd/MM')) as Feriado1,
 DATEPART(HOUR, FechaHoraSalida) as HoraSalida, CONVERT(varchar(50), FechaHoraSalida) as EstratoHoraSalida,
-FORMAT(FechaHoraSalida,'dd/MM') as DiaSalida,  CONVERT(varchar(50),FORMAT(FechaHoraIngreso,'dd/MM')) as Feriado2,
+FORMAT(FechaHoraSalida,'dd/MM') as DiaSalida, CONVERT(varchar(50),FORMAT(FechaHoraIngreso,'dd/MM')) as Feriado2,
 DATEDIFF(MINUTE,FechaHoraIngreso,FechaHoraSalida) as CantMinutos, CONVERT(VARCHAR(50),DATEDIFF(MINUTE,FechaHoraSalida,FechaHoraIngreso)) as EstratoCantMinutos,
 Ganancia as EstratoGanacia 
 into FactEstacionamiento
 FROM ExamenAnalisis.dbo.Estacionamiento
 
 /*begin tran
-	UPDATE FactEstacionamiento set Feriado1 =
-	(SELECT d.NombreFeriado FROM ExamenAnalisis.dbo.DiasFeriadosAnuales d 
-		where DiaEntrada = 
-		 );
-commit;*/
-
+UPDATE FactEstacionamiento set Feriado1 =
+(SELECT f.DiaEntrada, d.NombreFeriado FROM CuboParqueo.dbo.FactEstacionamiento f
+	LEFT JOIN ExamenAnalisis.dbo.DiasFeriadosAnuales d ON f.DiaEntrada = d.NombreFeriado
+	WHERE NombreFeriado is NULL 
+	);
+commit;
+*/
 
 begin tran 
 	update FactEstacionamiento set EstratoGanacia =
