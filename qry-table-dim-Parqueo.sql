@@ -1,4 +1,5 @@
-use CuboParqueo   if
+use CuboParqueo   
+if
 	(OBJECT_ID ('dbo.DimParqueo', 'U') > 0) drop table DimParqueo; 
 
 use ExamenAnalisis
@@ -9,4 +10,3 @@ use ExamenAnalisis
 	p.Descripcion as NombreProvincia
 	
   into CuboParqueo.dbo.DimParqueo FROM [ExamenAnalisis].dbo.Parqueo q, [ExamenAnalisis].dbo.Distrito d,  [ExamenAnalisis].dbo.Canton c, [ExamenAnalisis].dbo.Provincia p
-

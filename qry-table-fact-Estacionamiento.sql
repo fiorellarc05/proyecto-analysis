@@ -1,53 +1,54 @@
-
 use CuboParqueo
 if
-	(OBJECT_ID ('dbo.FactEstacionamiento', 'U') > 0) drop table FactEstacionamiento; 
+	(OBJECT_ID ('dbo.FactEstacionamiento', 'U') > 0) drop table FactEstacionamiento; 
 GO
 
-
-SELECT TarifaBase, Ganancia, Mantenimiento, ImpVentas, TotalACobrar, 
-DATEPART(HOUR, FechaHoraIngreso) as HoraEntrada, DATEPART(DAY, FechaHoraIngreso) as DiaEntrada, 
-DATEPART(HOUR, FechaHoraSalida) as HoraSalida, DATEPART(DAY, FechaHoraSalida) as DiaSalida,  
-DATEDIFF(mi,FechaHoraSalida,FechaHoraIngreso) as CantidadMinutos,
-DATEPART(HOUR, FechaHoraIngreso), convert(varchar(50),datepart(HOUR, FechaHoraIngreso)) as EstratoHoraEntrada,
-DATEPART(HOUR, FechaHoraSalida) as EstratoHoraSalida,
-DATEPART(DAY, FechaHoraIngreso) as EstratoDiaEntrada,
-DATEPART(DAY, FechaHoraSalida) as EstratoDiaSalida,
-DATEDIFF(mi,FechaHoraSalida,FechaHoraIngreso) as EstratoCantMinutos,
+SELECT 
+TarifaBase, Ganancia, Mantenimiento, ImpVentas, TotalACobrar,
+DATEPART(HOUR, FechaHoraIngreso) as HoraEntrada, CONVERT(varchar(50), FechaHoraIngreso) as EstratoHoraEntrada,
+FORMAT(FechaHoraIngreso,'dd/MM') as DiaEntrada, CONVERT(varchar(50),FORMAT(FechaHoraIngreso,'dd/MM')) as Feriado1, 
+DATEPART(HOUR, FechaHoraSalida) as HoraSalida, CONVERT(varchar(50), FechaHoraSalida) as EstratoHoraSalida,
+FORMAT(FechaHoraSalida,'dd/MM') as DiaSalida,  CONVERT(varchar(50),FORMAT(FechaHoraIngreso,'dd/MM')) as Feriado2,
+DATEDIFF(MINUTE,FechaHoraIngreso,FechaHoraSalida) as CantMinutos, CONVERT(VARCHAR(50),DATEDIFF(MINUTE,FechaHoraSalida,FechaHoraIngreso)) as EstratoCantMinutos,
 Ganancia as EstratoGanacia 
+into FactEstacionamiento
+FROM ExamenAnalisis.dbo.Estacionamiento
 
-into FactEstacionamiento FROM ExamenAnalisis.dbo.Estacionamiento
-
+/*begin tran
+	UPDATE FactEstacionamiento set Feriado1 =
+	(SELECT d.NombreFeriado FROM ExamenAnalisis.dbo.DiasFeriadosAnuales d 
+		where DiaEntrada = 
+		 );
+commit;*/
 
 
 begin tran 
-update FactEstacionamiento set EstratoGanacia = ( select e.Descripcion from ParqueoEstratos e 
-where Ganancia >= e.LimiteInferior and Ganancia < e.LimiteSuperior and e.TipoEstrato = 'Ganacia' );   
+	update FactEstacionamiento set EstratoGanacia =
+	( select e.Descripcion from ParqueoEstratos e 
+		where Ganancia >= e.LimiteInferior and Ganancia < e.LimiteSuperior 
+		and e.TipoEstrato = 'Ganacia' );   
 commit;
 
 begin tran 
-update FactEstacionamiento set EstratoHoraEntrada = ( select e.Descripcion from ParqueoEstratos e 
-where HoraEntrada	>= e.LimiteInferior and HoraEntrada < e.LimiteSuperior and e.TipoEstrato = 'HoraEntrada' );   
+	update FactEstacionamiento set EstratoHoraEntrada = 
+	( select e.Descripcion from ParqueoEstratos e 
+		where HoraEntrada >= e.LimiteInferior and HoraEntrada < e.LimiteSuperior 
+		and e.TipoEstrato = 'HoraEntrada' );   
+commit;
+
+
+begin tran 
+	update FactEstacionamiento set EstratoHoraSalida =
+	( select e.Descripcion from ParqueoEstratos e 
+		where HoraSalida > = e.LimiteInferior and HoraSalida < e.LimiteSuperior 
+		and e.TipoEstrato = 'HoraSalida' );   
 commit;
 
 begin tran 
-update FactEstacionamiento set EstratoHoraSalida = ( select e.Descripcion from ParqueoEstratos e 
-where HoraSalida	>= e.LimiteInferior and HoraSalida < e.LimiteSuperior and e.TipoEstrato = 'HoraSalida' );   
-commit;
-
-begin tran 
-update FactEstacionamiento set EstratoDiaEntrada = ( select e.Descripcion from ParqueoEstratos e 
-where DiaEntrada	>= e.LimiteInferior and DiaEntrada < e.LimiteSuperior and e.TipoEstrato = 'DiaRestriccion' );   
-commit;
-
-begin tran 
-update FactEstacionamiento set EstratoDiaSalida = ( select e.Descripcion from ParqueoEstratos e 
-where DiaSalida	>= e.LimiteInferior and DiaSalida < e.LimiteSuperior and e.TipoEstrato = 'DiaRestriccion' );   
-commit;
-
-begin tran 
-update FactEstacionamiento set EstratoCantMinutos = ( select e.Descripcion from ParqueoEstratos e 
-where CantidadMinutos	>= e.LimiteInferior and CantidadMinutos < e.LimiteSuperior and e.TipoEstrato = 'CantMinutos' );   
+	update FactEstacionamiento set EstratoCantMinutos =
+	( select e.Descripcion from ParqueoEstratos e 
+		where CantMinutos	>= e.LimiteInferior and CantMinutos < e.LimiteSuperior 
+		and e.TipoEstrato = 'CantMinutos' );   
 commit;
 
 
