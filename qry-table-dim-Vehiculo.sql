@@ -9,6 +9,6 @@ use ExamenAnalisis  
 	[ExamenAnalisis].dbo.Pais.NombrePais as PaisFabricante, [ExamenAnalisis].dbo.Pais.AbreviaturaPais as AbrevPaisFabricante,
 	[ExamenAnalisis].dbo.RegionContinente.Descripcion as NombreRegionContinenteFabricante, 
 	[ExamenAnalisis].dbo.Continente.Descripcion as NombreContinenteFabricante
-	
+	into DimVehiculo
 	FROM [ExamenAnalisis].dbo.Vehiculo, [ExamenAnalisis].dbo.TipoVehiculo, [ExamenAnalisis].dbo.Fabricante, [ExamenAnalisis].dbo.Pais,
 	[ExamenAnalisis].dbo.RegionContinente, [ExamenAnalisis].dbo.Continente

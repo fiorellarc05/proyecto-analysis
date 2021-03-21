@@ -4,24 +4,26 @@ if
 GO
 
 SELECT 
-TarifaBase, Mantenimiento, ImpVentas, FechaHoraIngreso,
+TarifaBase, Mantenimiento, ImpVentas, /*RIGHT(v.Placa, 1) AS UltimoDigitoPlaca,*/ FechaHoraIngreso,
 DATEPART(HOUR, FechaHoraIngreso) as HoraEntrada, CONVERT(varchar(50), FechaHoraIngreso) as EstratoHoraEntrada,
 CONVERT(varchar(10), DATEPART(HOUR, FechaHoraIngreso)) as IndicativoHoraEntrada,
-DATEPART(DAY,FechaHoraIngreso) as DiaEntrada,
+DATEPART(DAY,FechaHoraIngreso) as DiaEntrada, 
+DATEPART(WEEKDAY,FechaHoraIngreso) as DiaSemanaEntrada,
+CONVERT(varchar(50),DATEPART(WEEKDAY,FechaHoraIngreso)) as EntradaRestriccion,
 CONVERT(varchar(25),DATEPART(DAY, FechaHoraIngreso),DATEPART(MONTH, FechaHoraIngreso)) as DiaEntradaFeriado,
-CONVERT(varchar(10), DATEPART(DAY, FechaHoraIngreso)) as RestriccionEntrada,
 FechaHoraSalida,
 DATEPART(HOUR, FechaHoraSalida) as HoraSalida, CONVERT(varchar(50), FechaHoraSalida) as EstratoHoraSalida,
 CONVERT(varchar(10), DATEPART(HOUR, FechaHoraSalida)) as IndicativoHoraSalida,
-DATEPART(DAY,FechaHoraSalida) as DiaSalida,
+DATEPART(DAY,FechaHoraSalida) as DiaSalida, DATEPART(WEEKDAY,FechaHoraSalida) as DiaSemanaSalida,
+CONVERT(varchar(50),DATEPART(WEEKDAY,FechaHoraSalida)) as SalidaRestriccion,
 CONVERT(varchar(25),DATEPART(DAY, FechaHoraSalida)) as DiaSalidaFeriado,
-CONVERT(varchar(10), DATEPART(DAY, FechaHoraSalida)) as RestriccionSalida,
 DATEDIFF(MINUTE,FechaHoraIngreso,FechaHoraSalida) as CantMinutos, 
 CONVERT(VARCHAR(50),DATEDIFF(MINUTE,FechaHoraSalida,FechaHoraIngreso)) as EstratoCantMinutos,
 TotalACobrar,
 Ganancia, CONVERT(varchar(50),Ganancia) as EstratoGanancia
 into FactEstacionamiento
-FROM ExamenAnalisis.dbo.Estacionamiento
+FROM ExamenAnalisis.dbo.Estacionamiento /*[ExamenAnalisis].[dbo].[Vehiculo] v*/
+
 
 /*indicador entrada*/
 begin tran
@@ -62,17 +64,32 @@ ELSE
 SELECT 'hello'
 COMMIT;*/
 
-/*Indicador Dia Resctriccion CASE PARA PLACA*/
+/*Indicador Dia Resctriccion Entrada*/
 /*begin tran
 	update FactEstacionamiento
-		set RestriccionEntrada = 
-				(Select v.Placa FROM [ExamenAnalisis].[dbo].[Vehiculo] v
-				case
-                  when v.Placa =   then 'Mañana'
-                  else 'Tarde'
+		set EntradaRestriccion = case
+                  when UltimoDigitoPlaca >=0 AND <=3 AND DiaSemanaEntrada =2  then 'Restriccion'
+                  when UltimoDigitoPlaca >=4 AND <=7 AND DiaSemanaEntrada =3  then 'Restriccion'
+				  when UltimoDigitoPlaca >=8 AND <=1 AND DiaSemanaEntrada =4  then 'Restriccion'
+				  when UltimoDigitoPlaca >=2 AND <=5 AND DiaSemanaEntrada =5  then 'Restriccion'
+				  when UltimoDigitoPlaca >=6 AND <=9 AND DiaSemanaEntrada =6  then 'Restriccion'
+                  else 'NO Restriccion'
                  end
-				 );
 commit;*/
+
+/*Indicador Dia Resctriccion Salida*/
+/*begin tran
+	update FactEstacionamiento
+		set SalidaRestriccion = case
+                  when UltimoDigitoPlaca >=0 AND <=3 AND DiaSemanaSalida =2  then 'Restriccion'
+                  when UltimoDigitoPlaca >=4 AND <=7 AND DiaSemanaSalida =3  then 'Restriccion'
+				  when UltimoDigitoPlaca >=8 AND <=1 AND DiaSemanaSalida =4  then 'Restriccion'
+				  when UltimoDigitoPlaca >=2 AND <=5 AND DiaSemanaSalida =5  then 'Restriccion'
+				  when UltimoDigitoPlaca >=6 AND <=9 AND DiaSemanaSalida =6  then 'Restriccion'
+                  else 'NO Restriccion'
+                 end
+commit;*/
+
 
 /*estrato Hora Entrada*/
 begin tran 
