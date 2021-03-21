@@ -4,20 +4,26 @@ if
 GO
 
 SELECT 
-TarifaBase, Mantenimiento, ImpVentas, TotalACobrar, FechaHoraIngreso,
+TarifaBase, Mantenimiento, ImpVentas, FechaHoraIngreso,
 DATEPART(HOUR, FechaHoraIngreso) as HoraEntrada, CONVERT(varchar(50), FechaHoraIngreso) as EstratoHoraEntrada,
 CONVERT(varchar(10), DATEPART(HOUR, FechaHoraIngreso)) as IndicativoHoraEntrada,
+DATEPART(DAY,FechaHoraIngreso) as DiaEntrada,
 CONVERT(varchar(25),DATEPART(DAY, FechaHoraIngreso),DATEPART(MONTH, FechaHoraIngreso)) as DiaEntradaFeriado,
+CONVERT(varchar(10), DATEPART(DAY, FechaHoraIngreso)) as RestriccionEntrada,
 FechaHoraSalida,
 DATEPART(HOUR, FechaHoraSalida) as HoraSalida, CONVERT(varchar(50), FechaHoraSalida) as EstratoHoraSalida,
 CONVERT(varchar(10), DATEPART(HOUR, FechaHoraSalida)) as IndicativoHoraSalida,
+DATEPART(DAY,FechaHoraSalida) as DiaSalida,
 CONVERT(varchar(25),DATEPART(DAY, FechaHoraSalida)) as DiaSalidaFeriado,
+CONVERT(varchar(10), DATEPART(DAY, FechaHoraSalida)) as RestriccionSalida,
 DATEDIFF(MINUTE,FechaHoraIngreso,FechaHoraSalida) as CantMinutos, 
 CONVERT(VARCHAR(50),DATEDIFF(MINUTE,FechaHoraSalida,FechaHoraIngreso)) as EstratoCantMinutos,
+TotalACobrar,
 Ganancia, CONVERT(varchar(50),Ganancia) as EstratoGanancia
 into FactEstacionamiento
 FROM ExamenAnalisis.dbo.Estacionamiento
 
+/*indicador entrada*/
 begin tran
 	update FactEstacionamiento
 		set IndicativoHoraEntrada = case
@@ -26,6 +32,7 @@ begin tran
                  end
 commit;
 
+/*indicador salida*/
 begin tran
 	update FactEstacionamiento
 		set IndicativoHoraSalida = case
@@ -34,8 +41,8 @@ begin tran
                  end
 commit;
 
-/*FALTA POCO
-begin tran
+/*Indicador Feriado FALTA POCO*/
+/*begin tran
 	update FactEstacionamiento set DiaEntradaFeriado =
 	if (select COUNT(*) FROM [ExamenAnalisis].dbo.[DiasFeriadosAnuales] d, [ExamenAnalisis].dbo.Estacionamiento e
 		where d.DiaFeriado = DATEPART(DAY,e.FechaHoraIngreso) AND d.MesFeriado = DATEPART(MONTH, e.FechaHoraIngreso) ) >0
@@ -55,23 +62,19 @@ ELSE
 SELECT 'hello'
 COMMIT;*/
 
-/*CASE PARA PLACA
-begin tran
+/*Indicador Dia Resctriccion CASE PARA PLACA*/
+/*begin tran
 	update FactEstacionamiento
-		set IndicativoHoraSalida = case
-                  when HoraSalida >=0 and HoraSalida <12 then 'Mañana'
+		set RestriccionEntrada = 
+				(Select v.Placa FROM [ExamenAnalisis].[dbo].[Vehiculo] v
+				case
+                  when v.Placa =   then 'Mañana'
                   else 'Tarde'
                  end
+				 );
 commit;*/
 
-begin tran
-	update FactEstacionamiento set EstratoGanancia =
-	( select e.Descripcion from  [dbo].[ParqueoEstratos] e 
-		where Ganancia >= e.LimiteInferior and Ganancia < e.LimiteSuperior
-		and e.TipoEstrato = 'Ganancia'
-		);
-commit;
-
+/*estrato Hora Entrada*/
 begin tran 
 	update FactEstacionamiento set EstratoHoraEntrada =
 	( select e.Descripcion from ParqueoEstratos e 
@@ -79,6 +82,7 @@ begin tran
 		and e.TipoEstrato = 'HoraEntrada' );   
 commit;
 
+/*estrato Hora Salida*/
 begin tran 
 	update FactEstacionamiento set EstratoHoraSalida =
 	( select e.Descripcion from ParqueoEstratos e 
@@ -86,6 +90,7 @@ begin tran
 		and e.TipoEstrato = 'HoraSalida' );   
 commit;
 
+/*estrato cantidad de minutos*/
 begin tran 
 	update FactEstacionamiento set EstratoCantMinutos =
 	( select e.Descripcion from ParqueoEstratos e 
@@ -93,6 +98,11 @@ begin tran
 		and e.TipoEstrato = 'CantMinutos' );   
 commit;
 
-
-
-
+/*estrato ganancia*/
+begin tran
+	update FactEstacionamiento set EstratoGanancia =
+	( select e.Descripcion from  [dbo].[ParqueoEstratos] e 
+		where Ganancia >= e.LimiteInferior and Ganancia < e.LimiteSuperior
+		and e.TipoEstrato = 'Ganancia'
+		);
+commit;
