@@ -4,7 +4,7 @@ if
 GO
 
 SELECT 
-	TarifaBase, Mantenimiento, ImpVentas, FechaHoraIngreso,
+	IDParqueo,IDVehiculo,TarifaBase, Mantenimiento, ImpVentas, FechaHoraIngreso,
 	DATEPART(HOUR, FechaHoraIngreso) as HoraEntrada, CONVERT(varchar(50), FechaHoraIngreso) as EstratoHoraEntrada,
 	CONVERT(varchar(10), DATEPART(HOUR, FechaHoraIngreso)) as IndicativoHoraEntrada,
 	DATEPART(DAY,FechaHoraIngreso) as DiaEntrada, 

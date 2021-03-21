@@ -5,6 +5,7 @@ IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[FactE
 DROP TABLE [dbo].[FactEstacionamiento]
 GO
 
+
 SET ANSI_NULLS ON
 GO
 
@@ -12,6 +13,8 @@ SET QUOTED_IDENTIFIER ON
 GO
 
 CREATE TABLE [dbo].[FactEstacionamiento](
+	[IDParqueo] [numeric](10, 0) NOT NULL,
+	[IDVehiculo] [numeric](10, 0) NOT NULL,
 	[TarifaBase] [numeric](10, 2) NULL,
 	[Mantenimiento] [numeric](10, 2) NULL,
 	[ImpVentas] [numeric](10, 2) NULL,
@@ -20,15 +23,17 @@ CREATE TABLE [dbo].[FactEstacionamiento](
 	[EstratoHoraEntrada] [varchar](50) NULL,
 	[IndicativoHoraEntrada] [varchar](10) NULL,
 	[DiaEntrada] [int] NULL,
+	[DiaSemanaEntrada] [int] NULL,
+	[EntradaRestriccion] [varchar](50) NULL,
 	[DiaEntradaFeriado] [varchar](25) NULL,
-	[RestriccionEntrada] [varchar](10) NULL,
 	[FechaHoraSalida] [datetime] NULL,
 	[HoraSalida] [int] NULL,
 	[EstratoHoraSalida] [varchar](50) NULL,
 	[IndicativoHoraSalida] [varchar](10) NULL,
 	[DiaSalida] [int] NULL,
+	[DiaSemanaSalida] [int] NULL,
+	[SalidaRestriccion] [varchar](50) NULL,
 	[DiaSalidaFeriado] [varchar](25) NULL,
-	[RestriccionSalida] [varchar](10) NULL,
 	[CantMinutos] [int] NULL,
 	[EstratoCantMinutos] [varchar](50) NULL,
 	[TotalACobrar] [numeric](10, 2) NULL,
