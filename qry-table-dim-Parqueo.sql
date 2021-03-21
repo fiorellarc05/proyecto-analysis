@@ -4,9 +4,8 @@ if
 
 use ExamenAnalisis
   
-	SELECT  q.IDParqueo,
-	d.Descripcion as NombreDistrito,
-	c.Descripcion as NombreCanton,
-	p.Descripcion as NombreProvincia
-	
-  into CuboParqueo.dbo.DimParqueo FROM [ExamenAnalisis].dbo.Parqueo q, [ExamenAnalisis].dbo.Distrito d,  [ExamenAnalisis].dbo.Canton c, [ExamenAnalisis].dbo.Provincia p
+	SELECT [ExamenAnalisis].dbo.Distrito.Descripcion as NombreDistrito, 
+	[ExamenAnalisis].dbo.Canton.Descripcion AS NombreCanton,  [ExamenAnalisis].dbo.Provincia.Descripcion as NombreProvincia
+	into CuboParqueo.dbo.DimParqueo
+	FROM [ExamenAnalisis].dbo.Distrito, [ExamenAnalisis].dbo.Canton, [ExamenAnalisis].dbo.Provincia
+
