@@ -33,28 +33,28 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>vFS1vhihNgIiGfns2wV67PyPGaM=3/22/2021 12:48:12 AM3/22/2021 12:30:24 AM</TimeStamp>
+        <TimeStamp>CNOxVfzZPo2rMyo47dxyjEIQ2cg=3/22/2021 8:53:55 PM3/22/2021 12:30:24 AM</TimeStamp>
         <ID>
           <String>Dim Parqueo</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>nP4F35PkALBcHvLavk/M6d+JA/A=3/22/2021 12:50:26 AM3/22/2021 12:30:24 AM</TimeStamp>
+        <TimeStamp>yBqm5/EU9K/TX3E8AZMj3HgdRso=3/22/2021 8:48:13 PM3/22/2021 12:30:24 AM</TimeStamp>
         <ID>
           <String>Dim Vehiculo</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>FZsMPyP0GpjdT5n5WIOojJf9gh0=3/22/2021 1:10:04 AM3/22/2021 1:10:04 AM</TimeStamp>
+        <TimeStamp>LtcDb/zOzwVmMUML70Cjy1rbcKk=3/22/2021 9:10:06 PM3/22/2021 9:09:48 PM</TimeStamp>
         <ID>
-          <String>DimFecha</String>
+          <String>Dim Fecha</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>IODjBwxPFgiYnOpJwEf86l0ImnE=3/22/2021 1:24:37 AM3/22/2021 12:30:24 AMG4xrx00pim7vp/zxwZlpafkoV6w=3/22/2021 12:43:03 AM3/22/2021 12:30:24 AM</TimeStamp>
+        <TimeStamp>APsPdbRE6SSTyJAHCUFaq7PLIUw=3/22/2021 9:11:16 PM3/22/2021 12:30:24 AMG4xrx00pim7vp/zxwZlpafkoV6w=3/22/2021 12:43:03 AM3/22/2021 12:30:24 AM</TimeStamp>
         <ID>
           <String>Cubo Parqueo</String>
         </ID>
@@ -71,5 +71,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2021-03-22T01:35:00.166667Z</LastDeployed>
+  <LastDeployed>2021-03-22T21:11:56.466667Z</LastDeployed>
 </DeploymentSnapshot>

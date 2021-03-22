@@ -18,7 +18,7 @@
         <ID>Dim Vehiculo</ID>
       </Dimension>
       <Dimension>
-        <ID>DimFecha</ID>
+        <ID>Dim Fecha</ID>
       </Dimension>
     </Dimensions>
     <Cubes>
