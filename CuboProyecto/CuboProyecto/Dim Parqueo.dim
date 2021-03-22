@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="dfda9116-ba3a-4ddd-b7c0-54f74b366a5a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="99088d6c-c3bd-4c78-bee5-f4e49d345608" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Dim Parqueo</ID>
   <Name>Dim Parqueo</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4213" scrolltop="-7123" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11557" y="16552" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4213" scrolltop="-7123" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11557" y="16552" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimParqueo" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3090" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimParqueo" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3090" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000120c000003090000" />
             </control>
@@ -68,39 +68,39 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="665c4cd0-bb6e-49c1-be59-62c70b77062c">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="44f297e4-7841-4088-ba28-37d94fd6e0ff">
     <DataSourceViewID>Cubo Parqueo</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="a48b9565-643c-4bf8-88a7-e482113ce349">
+  <ErrorConfiguration dwd:design-time-name="bf4bff2d-ef00-4c18-a5b8-9aac03bb0b43">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="20b59748-8ca3-4db4-ace4-ab8ba3f582f8">
+    <Attribute dwd:design-time-name="d03e770e-2118-4a92-bc10-62eda647474b">
       <ID>ID Parqueo</ID>
       <Name>ID Parqueo</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="9dc3a07d-8197-4e78-bb23-ff4c5c8aead8">
+        <KeyColumn dwd:design-time-name="90df6e2d-112e-4f11-9862-0a8ecfa89f51">
           <DataType>Double</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c652d355-bcec-4b99-9272-a95bb8c55a01">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="32fa7d1b-14f9-4e63-a33d-016ab96c6bbd">
             <TableID>dbo_DimParqueo</TableID>
             <ColumnID>IDParqueo</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="fdc4b168-3b43-4050-8785-153136fac4b4">
+        <AttributeRelationship dwd:design-time-name="06d24fb3-8787-4528-ae00-4f5fbf183c84">
           <AttributeID>Nombre Distrito</AttributeID>
           <Name>Nombre Distrito</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="0b29ab4f-42fc-49ec-812e-08f19ab13a63">
+        <AttributeRelationship dwd:design-time-name="11c05ef8-6830-43d2-9b3c-991895ffd433">
           <AttributeID>Nombre Canton</AttributeID>
           <Name>Nombre Canton</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="eaf8f049-0ce4-4c56-be8f-4bc08059fa2b">
+        <AttributeRelationship dwd:design-time-name="a197771c-b111-4382-ba43-b9bde5460276">
           <AttributeID>Provincia</AttributeID>
           <Name>Provincia</Name>
         </AttributeRelationship>
@@ -109,14 +109,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="e451da8a-8977-42f6-bbd9-81d221c6c1d5">
+    <Attribute dwd:design-time-name="7f1800e7-1059-4a0d-a736-97f823231acf">
       <ID>Nombre Distrito</ID>
       <Name>Nombre Distrito</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="87f46084-4d01-4ca4-84e5-d31ee6c28bd5">
+        <KeyColumn dwd:design-time-name="5ea254c6-93e2-4203-9893-d102fa32b107">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="49f7018a-f1cd-40d0-b59b-7f7c8de99a7f">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="927db636-c383-4331-8ec3-3339e484cfeb">
             <TableID>dbo_DimParqueo</TableID>
             <ColumnID>NombreDistrito</ColumnID>
           </Source>
@@ -125,14 +125,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="5d87b793-ec76-4694-ab5a-1a99a71eff20">
+    <Attribute dwd:design-time-name="218e6161-bc99-47c8-b7b3-2468060a0441">
       <ID>Nombre Canton</ID>
       <Name>Nombre Canton</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="f7329c1c-6671-46a9-9159-bd2ad7e292b0">
+        <KeyColumn dwd:design-time-name="93ee9dcb-964a-49f6-9599-eec9550ed706">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="55e70252-0cae-42c2-80e8-79fc104fd8db">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="55a62fd0-6a04-4bf4-a755-d7ea74a1e559">
             <TableID>dbo_DimParqueo</TableID>
             <ColumnID>NombreCanton</ColumnID>
           </Source>
@@ -141,14 +141,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="8aaef554-a297-4b4b-afd9-7c5ffd216b4e">
+    <Attribute dwd:design-time-name="c46e60a7-45ba-4917-b8fb-c67c402187e3">
       <ID>Provincia</ID>
       <Name>Provincia</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="59e22fc9-c293-4f37-a5cd-a8c36e369a20">
+        <KeyColumn dwd:design-time-name="9d5c1897-a89c-47cd-beab-fd72850aed29">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="6ce131e6-1a7c-4bf7-8168-89a28d2576db">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d9b3e513-0111-4506-b93b-8a11375973a3">
             <TableID>dbo_DimParqueo</TableID>
             <ColumnID>Provincia</ColumnID>
           </Source>
@@ -159,26 +159,16 @@
     </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="037dd013-930a-4b19-b3e3-b1057ec7ae88">
+    <Hierarchy dwd:design-time-name="ac5ef8cd-a222-4163-97a2-f5cef911bc2e">
       <ID>Hierarchy</ID>
       <Name>Jerarquia Parqueo</Name>
       <Levels>
-        <Level dwd:design-time-name="c35f91c8-a1bd-4077-874a-d322eee75e5b">
-          <ID>Provincia</ID>
-          <Name>Provincia</Name>
-          <SourceAttributeID>Provincia</SourceAttributeID>
-        </Level>
-        <Level dwd:design-time-name="159bfac7-7b3d-4442-9b18-4fafed91ebdf">
-          <ID>Nombre Canton</ID>
-          <Name>Nombre Canton</Name>
-          <SourceAttributeID>Nombre Canton</SourceAttributeID>
-        </Level>
-        <Level dwd:design-time-name="86c219cf-fa74-4112-ac1b-9e5bb6fdfc6b">
+        <Level dwd:design-time-name="480c75da-56fd-4199-a5af-078aa2d42316">
           <ID>Nombre Distrito</ID>
           <Name>Nombre Distrito</Name>
           <SourceAttributeID>Nombre Distrito</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="a6d210e2-b37f-413d-9c7a-25495407e2f1">
+        <Level dwd:design-time-name="5e297572-9bb5-499b-820b-fb16c9f07148">
           <ID>ID Parqueo</ID>
           <Name>ID Parqueo</Name>
           <SourceAttributeID>ID Parqueo</SourceAttributeID>

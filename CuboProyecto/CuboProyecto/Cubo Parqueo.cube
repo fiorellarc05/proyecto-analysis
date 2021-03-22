@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="5ad62a3b-f49f-413d-b39f-54c7a511cf98" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="26d313d1-498b-449c-bd66-1860361f01fa" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Cubo Parqueo</ID>
   <Name>Cubo Parqueo</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="6" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10898" scrolltop="-3200" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="32830" y="16552" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10898" scrolltop="-3200" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="32830" y="16552" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FactEstacionamiento" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4043" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FactEstacionamiento" left="20" top="0" logicalid="6" controlid="1" masterid="0" hint1="0" hint2="0" width="4043" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000cb0f000088130000" />
             </control>
@@ -30,7 +30,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimParqueo" left="496" top="7400" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3090" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimParqueo" left="496" top="7400" logicalid="7" controlid="2" masterid="0" hint1="0" hint2="0" width="3090" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000120c000003090000" />
             </control>
@@ -41,7 +41,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimVehiculo" left="6463" top="1166" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="4106" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimVehiculo" left="6463" top="1166" logicalid="8" controlid="3" masterid="0" hint1="0" hint2="0" width="4106" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e00000a1000006b0a0000" />
             </control>
@@ -52,7 +52,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="1642" top="4700" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1642" top="4700" logicalid="9" controlid="4" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -70,7 +70,7 @@
               <point x="2041" y="5000" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="3763" top="2100" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3763" top="2100" logicalid="10" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -129,162 +129,165 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="7837c5fc-fb16-4221-9b83-5cd59e757fe3">
+    <Dimension dwd:design-time-name="16aa24f6-0c05-4204-80c1-547c6f037375">
       <ID>Dim Parqueo</ID>
       <Name>Dim Parqueo</Name>
       <DimensionID>Dim Parqueo</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="52a2163f-d7b0-41f5-8959-11e75f5dfaff">
+        <Attribute dwd:design-time-name="721843f1-a896-4304-b058-a7ca89588010">
           <AttributeID>ID Parqueo</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="689498c6-8825-48b0-8cbb-a640bb2f6ff5">
+        <Attribute dwd:design-time-name="9f701e00-2eba-4bf1-9ec1-a1472ea12a82">
           <AttributeID>Nombre Distrito</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="14150bde-4315-4c00-9f42-aaf5e223712a">
+        <Attribute dwd:design-time-name="4001fdcc-856e-48f1-b168-ed2245b4dae3">
           <AttributeID>Nombre Canton</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b8b8093e-cc1f-46ba-ba9c-c3d520e5edf1">
+        <Attribute dwd:design-time-name="b75565de-cc63-40f3-aeb1-f171a76e9d0d">
           <AttributeID>Provincia</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="6fd2c7bf-017b-4336-911e-d8126da78129">
+        <Hierarchy dwd:design-time-name="b6ec4cf5-c811-4582-a3a2-31c72595f6cb">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="ff942a30-0949-41e2-8e81-8d89e37a1c7b">
+    <Dimension dwd:design-time-name="201f89ff-ab8e-48b8-a0a1-5485cc7290e7">
       <ID>Dim Vehiculo</ID>
       <Name>Dim Vehiculo</Name>
       <DimensionID>Dim Vehiculo</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="b4384d2c-fc9e-4853-b1e1-8d68b1b385ec">
+        <Attribute dwd:design-time-name="dd50ec74-a6da-4adc-81de-0beacc23623f">
           <AttributeID>ID Vehiculo</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="995dea20-1590-4cd1-aac2-5b02f6bdeced">
+        <Attribute dwd:design-time-name="ca985f97-b955-4fee-bbd3-1d8f23f9699d">
           <AttributeID>Nombre Tipo Vehiculo</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="6e2f3db1-6791-4262-b7cd-990f6e80cd93">
+        <Attribute dwd:design-time-name="8db9eb97-24be-434d-8f7e-826b2cc9077c">
           <AttributeID>Nombre Fabricante</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="dac771d2-33d5-4719-a59c-a1fee52e31a7">
+        <Attribute dwd:design-time-name="f8dddb56-3cd4-4acb-9ac0-ce5c677b2337">
           <AttributeID>Estrato Ano Fabricacion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="80db6f2c-23d0-4cd5-85b3-3ecb3bf67554">
+          <AttributeID>Ano</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="7728a0b5-b85b-4f27-a95c-734637d6a819">
+        <Hierarchy dwd:design-time-name="eb691de6-b678-4b1d-9220-a50341839837">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="3305f522-a35f-4ead-be99-5973e326a89b">
-      <ID>DimFecha</ID>
-      <Name>DimFecha</Name>
-      <DimensionID>DimFecha</DimensionID>
+    <Dimension dwd:design-time-name="180f28ab-f44a-41f5-b080-b4dae81b6451">
+      <ID>Dim Fecha</ID>
+      <Name>Dim Fecha</Name>
+      <DimensionID>Dim Fecha</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="ce865f0a-038c-403d-844e-467ea71df2dc">
+        <Attribute dwd:design-time-name="cd2d10fe-e9b7-475f-8fd3-d93f803e9a69">
           <AttributeID>Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="513e93b0-c3ef-4731-9bcf-5549c2287d7f">
+        <Attribute dwd:design-time-name="8746db4f-0832-42de-9e6c-141cb85414fc">
           <AttributeID>Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="67a09da1-1e3e-47e2-a94f-12b1672e6ad8">
+        <Attribute dwd:design-time-name="3b28b2d3-3a1f-4e8f-8da8-19123fedbe3e">
           <AttributeID>Half Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="e1c0a0e6-05b5-490e-a51a-472ebd953f77">
+        <Attribute dwd:design-time-name="41a2efc1-0598-412c-b849-a4caac067263">
           <AttributeID>Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5e8d458c-2647-4300-821a-c1befcc042b2">
+        <Attribute dwd:design-time-name="8958ba3e-e9c4-4757-af51-1b4f92156b61">
           <AttributeID>Trimester</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="66997756-1843-4c8b-a549-082cca2a686b">
+        <Attribute dwd:design-time-name="968ab2d2-3aea-4f62-9484-a60a939ee65e">
           <AttributeID>Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="57b55a13-32fe-426a-ab9c-ee79065aeff0">
+        <Attribute dwd:design-time-name="8a8ddf2d-cbec-4253-9961-875cca6b9e41">
           <AttributeID>Ten Days</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="28fea149-c6a0-4cae-97e7-e5d6f05560f9">
+        <Attribute dwd:design-time-name="4e4ab3e7-d8b4-49af-983d-47f495b0c573">
           <AttributeID>Week</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="48973ecc-e6a3-4d04-a819-785bdb4dbfb9">
+        <Attribute dwd:design-time-name="fdd025e8-984e-4c3b-97d1-7bfefe1e83eb">
           <AttributeID>Day Of Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="437c2415-b5cd-48f9-b3af-dbcb449a96e6">
+        <Attribute dwd:design-time-name="858a4ede-5a4b-4db5-bb4b-3defa51e3c3f">
           <AttributeID>Day Of Half Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="feaf808e-221b-448b-9fb1-98a89491a9f1">
+        <Attribute dwd:design-time-name="0d937b37-1a58-4059-b70e-678fbe6fcfc7">
           <AttributeID>Day Of Trimester</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="64a50630-c1b4-4a20-b7f4-f2603e2255ff">
+        <Attribute dwd:design-time-name="e1c72809-4fa5-4cd8-a4a0-8522b89a5e93">
           <AttributeID>Day Of Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="2365f357-57d2-4cb4-864e-643251bdee05">
+        <Attribute dwd:design-time-name="f7a6a4a7-c7d0-467b-b313-39d14209c40c">
           <AttributeID>Day Of Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1804d985-5bc2-46cd-b774-142fdfbe7e44">
+        <Attribute dwd:design-time-name="f21d71cd-610d-4d77-9a64-4093cff19fc3">
           <AttributeID>Day Of Ten Days</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="726d7200-07e3-4efb-922f-4965ff3876ae">
+        <Attribute dwd:design-time-name="7aab1acf-5f7d-4175-b47f-cd49b07a39ec">
           <AttributeID>Day Of Week</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="695a258d-2860-4da6-9f82-41b859176d50">
+        <Attribute dwd:design-time-name="dc7930c3-0ab8-4883-8702-407021ed7e99">
           <AttributeID>Week Of Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="d27d06b8-47ea-47c2-998a-c5af36719a8a">
+        <Attribute dwd:design-time-name="776203e3-d1d2-4a0d-b10f-980f94ab335f">
           <AttributeID>Ten Days Of Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b0b5f754-165b-4aa7-a0e0-54070d073e81">
+        <Attribute dwd:design-time-name="ec5dbfbc-1bde-4443-8ee8-d592d4d77269">
           <AttributeID>Ten Days Of Half Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="9dbb7ff2-b0c7-4d60-b37b-8e0dfd45effc">
+        <Attribute dwd:design-time-name="f3b44181-d8fb-40ad-9735-81c6f0317326">
           <AttributeID>Ten Days Of Trimester</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="225ad6a1-49e6-4cfa-a5c6-94589af567c3">
+        <Attribute dwd:design-time-name="4104760e-e8eb-4102-8d86-3f906cbe0cd1">
           <AttributeID>Ten Days Of Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="77b308c8-8834-4803-beb6-555802b24c26">
+        <Attribute dwd:design-time-name="1bcf0769-a98c-4b43-9b46-40ceb6dfa94b">
           <AttributeID>Ten Days Of Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="eb591750-bc5f-48b2-9da7-ce5d0fb19922">
+        <Attribute dwd:design-time-name="67209bb7-b236-43d4-a825-fc497b4fa1ad">
           <AttributeID>Month Of Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5aff2523-1152-490f-ac38-8e20c1153bfe">
+        <Attribute dwd:design-time-name="551f21cd-1efc-4d2b-b268-af5c3b2c90f7">
           <AttributeID>Month Of Half Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="9118f060-7431-4ce4-bed5-db5e9edbaa73">
+        <Attribute dwd:design-time-name="1901b9f3-a701-4b9f-90f8-03a8e83f0c3c">
           <AttributeID>Month Of Trimester</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="53f9e87a-9d77-4670-afbd-17bc0614b860">
+        <Attribute dwd:design-time-name="17b4301d-0625-4b85-990a-809f7f1a8238">
           <AttributeID>Month Of Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="075f6fbf-0ec0-4865-9789-c36ffd7f5998">
+        <Attribute dwd:design-time-name="559fe118-6b9d-421b-8300-0ff8392622f8">
           <AttributeID>Quarter Of Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1d3a5af2-3d5c-4ef8-b2f9-98ab0c5fa141">
+        <Attribute dwd:design-time-name="0281a216-aec4-4008-b64f-82aea888ffeb">
           <AttributeID>Quarter Of Half Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="13ad7bbc-699a-4bcd-8574-7e9b8d2b4512">
+        <Attribute dwd:design-time-name="0dbd83f1-0ca1-4c59-b7bf-c6f4ffc3b1a4">
           <AttributeID>Trimester Of Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c8ecddf4-2e97-4b1b-9550-7c869cca1b68">
+        <Attribute dwd:design-time-name="76b4547b-46a0-4742-8984-3b87c25f3d93">
           <AttributeID>Half Year Of Year</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="6bb266b5-c94d-424d-bb32-81c89bd0f989">
+        <Hierarchy dwd:design-time-name="7ad7154f-e8a7-4b92-bb91-00d6562c87f1">
           <HierarchyID>Year -  Half Year -  Quarter -  Month -  Ten Days -  Date</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="cf241590-73a6-4f96-ada3-59e2e45b937c">
+        <Hierarchy dwd:design-time-name="dced5762-caf0-4312-9810-079d60be53d3">
           <HierarchyID>Year -  Trimester -  Month -  Ten Days -  Date</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="f2fc8c7e-13e0-4156-b8d0-dfaa2a1147e9">
+        <Hierarchy dwd:design-time-name="bd1cc090-7290-435f-81d2-8e43deaf8160">
           <HierarchyID>Year -  Week -  Date</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="d31a5f02-19dd-40af-a81a-fbe2dde4728d">
+    <MeasureGroup dwd:design-time-name="dec40d00-a5a1-45f3-b660-66612a92d16f">
       <ID>Fact Estacionamiento</ID>
       <Name>Fact Estacionamiento</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -292,157 +295,157 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="d3219a85-35be-44d3-8574-e230dd6703ba">
+        <Measure dwd:design-time-name="3f14c2a5-5ac2-4e13-b057-70565089c8a8">
           <ID>Tarifa Base</ID>
           <Name>Tarifa Base</Name>
-          <Source dwd:design-time-name="cf43cfdb-b00d-4417-b398-2535961c8ce3">
+          <Source dwd:design-time-name="db0e67b1-13e8-46d6-8330-b66bcf050b9b">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="d95691ca-49de-4d00-8011-2073d3cf9a9d">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d6935484-b2b3-4147-877a-545c1c6d0c7a">
               <TableID>dbo_FactEstacionamiento</TableID>
               <ColumnID>TarifaBase</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="e3cb3945-2cb3-4021-a8d1-b08c16aadaf1">
+        <Measure dwd:design-time-name="daa85a6c-59f8-4dba-a73d-33b40698cc01">
           <ID>Mantenimiento</ID>
           <Name>Mantenimiento</Name>
-          <Source dwd:design-time-name="c5345d28-84e6-4742-8720-f15a457cb020">
+          <Source dwd:design-time-name="74f05247-823b-4eb7-a047-a95470fbb182">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="f1f919a6-a5e6-4ae9-9158-9dc99cd78dba">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="28f1f61b-d9de-47cb-8f99-44e887fe8dc8">
               <TableID>dbo_FactEstacionamiento</TableID>
               <ColumnID>Mantenimiento</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="bd3d75be-69b6-4136-a845-1ad60f38a2db">
+        <Measure dwd:design-time-name="e03de0e3-138b-4dbd-9b55-0311644fc699">
           <ID>Imp Ventas</ID>
           <Name>Imp Ventas</Name>
-          <Source dwd:design-time-name="7c415560-c72b-4a19-beaa-a97d3c02a914">
+          <Source dwd:design-time-name="c72a9e2d-47cc-4056-8e5c-3a778ec72bda">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="d223daec-5bda-4ce2-9c90-94fc1fa06378">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="aa2a32fe-e93b-4eef-a6f0-9f633ec59d08">
               <TableID>dbo_FactEstacionamiento</TableID>
               <ColumnID>ImpVentas</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="bbb12181-3877-488f-8956-c2f80294167b">
+        <Measure dwd:design-time-name="53afc491-469f-447b-861b-6366c27c1ff1">
           <ID>Hora Entrada</ID>
           <Name>Hora Entrada</Name>
-          <Source dwd:design-time-name="2baaba95-0db6-4d48-b537-4979dd2452de">
+          <Source dwd:design-time-name="605e6d39-bc92-4167-8114-ca38ce3e9114">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="a6dc02ca-1d5a-44ea-af38-58d6ec17e631">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="10bade9d-f68d-4f2e-b750-7d13835e9700">
               <TableID>dbo_FactEstacionamiento</TableID>
               <ColumnID>HoraEntrada</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="db95e976-4d0a-452a-b93d-a10580979c61">
+        <Measure dwd:design-time-name="d906b158-a42a-4427-96e7-14f4cb722a70">
           <ID>Dia Entrada</ID>
           <Name>Dia Entrada</Name>
-          <Source dwd:design-time-name="d5cd1766-7711-424d-abed-d4cae9c627fa">
+          <Source dwd:design-time-name="438b01e7-68fa-4bad-b08d-25167942409b">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="337cc637-e8fb-4b69-b595-c2b47ef1b4f7">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f3725329-6d14-422e-ad29-0747dc55e690">
               <TableID>dbo_FactEstacionamiento</TableID>
               <ColumnID>DiaEntrada</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="e77c52b5-296c-41bb-b285-10948fdfef15">
+        <Measure dwd:design-time-name="522a90e9-a58d-401e-be1e-6a87aa5e3af1">
           <ID>Dia Semana Entrada</ID>
           <Name>Dia Semana Entrada</Name>
-          <Source dwd:design-time-name="99fa9ec5-a64f-4905-b3ac-4d7a9bfd680f">
+          <Source dwd:design-time-name="e8a0515b-c9de-41e8-887a-09941a536e5d">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="367e4516-ce5a-4876-bcfe-c9c7cb3e2e51">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="78a3612b-4a8e-400e-bf11-3144ae776269">
               <TableID>dbo_FactEstacionamiento</TableID>
               <ColumnID>DiaSemanaEntrada</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="84cf1ea2-9e64-4d36-9a37-6d739dce5d4c">
+        <Measure dwd:design-time-name="de853f77-8020-435f-8ee1-ddb743b0ef2e">
           <ID>Hora Salida</ID>
           <Name>Hora Salida</Name>
-          <Source dwd:design-time-name="2cc6fd83-9da1-41cb-885d-d71c02920c7a">
+          <Source dwd:design-time-name="69df65c5-0d47-473b-9dc0-91882ff01c30">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="e2dd5df3-1fff-41b9-8823-be0de7adc577">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b00108d8-5b85-4cbd-9a0d-4ac1d7676ee8">
               <TableID>dbo_FactEstacionamiento</TableID>
               <ColumnID>HoraSalida</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="fa3fae67-8972-449e-b64d-0b93babb7529">
+        <Measure dwd:design-time-name="1591305b-5f17-423b-97bf-fd76780e601c">
           <ID>Dia Salida</ID>
           <Name>Dia Salida</Name>
-          <Source dwd:design-time-name="98366a79-dbb5-411c-a2f8-7e1a305630bd">
+          <Source dwd:design-time-name="95446569-d576-4f20-81dc-82e7e38cc914">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="94f261f3-010e-4348-9a8f-c70e70724da6">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="85f398ee-d423-4081-a17f-9a0e6298b9bf">
               <TableID>dbo_FactEstacionamiento</TableID>
               <ColumnID>DiaSalida</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="1d43dae7-0695-49ca-8d21-856c60b83499">
+        <Measure dwd:design-time-name="88829323-7893-44cf-b415-405ed36f62ec">
           <ID>Dia Semana Salida</ID>
           <Name>Dia Semana Salida</Name>
-          <Source dwd:design-time-name="5506eb77-fec9-4310-8fa5-bb7a352e685e">
+          <Source dwd:design-time-name="ee26cd1c-f59f-4b9d-8b1e-000aea1c3cc0">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="bf28b7ec-59c5-4dd5-9714-ed4da8b8edc5">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3135a8c5-d40a-4489-8b24-b9897629dda0">
               <TableID>dbo_FactEstacionamiento</TableID>
               <ColumnID>DiaSemanaSalida</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="5d07882d-606f-46bf-b0a5-239396c5a99f">
+        <Measure dwd:design-time-name="c82c5fe0-b3c0-4219-beb8-70a64f37c856">
           <ID>Cant Minutos</ID>
           <Name>Cant Minutos</Name>
-          <Source dwd:design-time-name="22de2e24-28e0-4513-b097-356efce95bcd">
+          <Source dwd:design-time-name="e26518c8-1162-4411-84e3-c9b495d398c4">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="56ad816e-9ca8-4b3b-9027-c7a044bdabe8">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f54ca367-f0db-43f3-82dd-36308d393f4e">
               <TableID>dbo_FactEstacionamiento</TableID>
               <ColumnID>CantMinutos</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="2295e287-cbae-4007-971e-1c82a78b609a">
+        <Measure dwd:design-time-name="627eca28-cb16-4a45-b446-bf026eba713c">
           <ID>Total A Cobrar</ID>
           <Name>Total A Cobrar</Name>
-          <Source dwd:design-time-name="c901519e-d16f-4270-ab41-b5e2e21c28d4">
+          <Source dwd:design-time-name="de8c647e-3d86-4361-a513-319ae5d32c35">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="2f440d02-8f0f-4b85-9165-22117a5424f3">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="61a245ed-037f-4191-a5f3-e4f0eb33e3d6">
               <TableID>dbo_FactEstacionamiento</TableID>
               <ColumnID>TotalACobrar</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="a1230b27-1790-46d6-b1d1-8d9adacc36ee">
+        <Measure dwd:design-time-name="7247628a-440e-438c-936e-e7adc9af162f">
           <ID>Ganancia</ID>
           <Name>Ganancia</Name>
-          <Source dwd:design-time-name="c1b1a093-a6d4-4038-b262-0a7cbc292296">
+          <Source dwd:design-time-name="ce196246-18b6-4f11-86e4-544b1f56ef56">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="a1a94f5d-2d92-4f6b-ba52-41a4a410f4a8">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f3d3094f-8a5e-4620-b8e7-7c61dbc38d72">
               <TableID>dbo_FactEstacionamiento</TableID>
               <ColumnID>Ganancia</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="5048bb0c-9721-4521-9cbc-27438096bc29">
+        <Measure dwd:design-time-name="dae98cd1-8d7a-4ed9-9e3f-f499c96d8694">
           <ID>Fact Estacionamiento Count</ID>
           <Name>Fact Estacionamiento Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="86f022ec-8f57-429b-b855-54a320476a96">
+          <Source dwd:design-time-name="179a6ae7-7ce3-4d59-9d4b-3a95d483a82c">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="b1d89fcb-aa95-4e2b-8d6e-75303af99684">
+            <Source xsi:type="RowBinding" dwd:design-time-name="259d6678-0d07-4de4-aa70-986f2cb13d32">
               <TableID>dbo_FactEstacionamiento</TableID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="dd88e45b-adc7-412d-ba8b-073bf2de9c06">
+        <Measure dwd:design-time-name="93c2da26-cfed-4af4-a794-b31ba2e44738">
           <ID>Cant Minutos - Fact Estacionamiento</ID>
           <Name>Promedio</Name>
           <AggregateFunction>AverageOfChildren</AggregateFunction>
-          <Source dwd:design-time-name="dd36470b-8d55-4173-abe3-dcff67412113">
+          <Source dwd:design-time-name="4f628c34-d066-472b-9074-9d348068cd25">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="9117672e-b26b-4048-b5f3-bc6229cef493">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="39bce8f6-f7c0-4166-9d09-b5f2e18a258b">
               <TableID>dbo_FactEstacionamiento</TableID>
               <ColumnID>CantMinutos</ColumnID>
             </Source>
@@ -452,15 +455,15 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="26d91170-e8c8-4b65-9c19-56137a44730b">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="51ad4692-4978-4983-bb62-b13565aa12dd">
           <CubeDimensionID>Dim Parqueo</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="b16938e1-6d91-420a-94af-3b6714f107d4">
+            <Attribute dwd:design-time-name="924785ae-6d71-486c-968d-ac6fce1ba98b">
               <AttributeID>ID Parqueo</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="33a2934e-ed73-4f3d-8173-8ad00ce3e33c">
+                <KeyColumn dwd:design-time-name="ac31d77d-df57-48ac-aa9c-ccf881b359f1">
                   <DataType>Double</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="dca58b31-5ab6-407d-955c-285404be28d5">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4a5f799b-a11d-456c-bf69-a833cc39c143">
                     <TableID>dbo_FactEstacionamiento</TableID>
                     <ColumnID>IDParqueo</ColumnID>
                   </Source>
@@ -470,15 +473,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c6ac8fd3-7b30-4fb9-8f00-9d06ae34cbe1">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="06505701-1fe8-4cce-b727-a2873f223061">
           <CubeDimensionID>Dim Vehiculo</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="2820dd6b-b8b4-40ed-9efd-d92106bc3bdb">
+            <Attribute dwd:design-time-name="232a293b-b1cb-4c36-9fc9-dbab4eddcad2">
               <AttributeID>ID Vehiculo</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="044cfaa6-440c-4303-8cee-f948a23f742a">
+                <KeyColumn dwd:design-time-name="39789274-dedb-4537-acb4-b1d6fff4730c">
                   <DataType>Double</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c29c4c96-8687-4161-a959-aa2578d85375">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="30d9dc19-87b7-48ed-941a-7449f4d48f8a">
                     <TableID>dbo_FactEstacionamiento</TableID>
                     <ColumnID>IDVehiculo</ColumnID>
                   </Source>
@@ -488,15 +491,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c6fd2f36-a509-4a30-9f09-c2fdfb2137ea">
-          <CubeDimensionID>DimFecha</CubeDimensionID>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="dcc1ca57-c893-491f-8d32-c7f76534738b">
+          <CubeDimensionID>Dim Fecha</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="00e01921-ba14-47f4-9ba1-72608533fd21">
+            <Attribute dwd:design-time-name="b09114a8-3365-461a-898c-9fa5433ccc45">
               <AttributeID>Date</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="a77179e9-eafd-419f-9b50-a60bf3c88085">
+                <KeyColumn dwd:design-time-name="50f4582b-4248-4f46-b217-4e0ec753fc79">
                   <DataType>Date</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="665941bd-e01f-4ceb-a95b-49e04ff6317e">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fd44cf1a-ff54-404c-bf23-9322b43bda98">
                     <TableID>dbo_FactEstacionamiento</TableID>
                     <ColumnID>FechaHoraIngreso</ColumnID>
                   </Source>
@@ -510,7 +513,7 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="aa0f0553-54d9-4ac1-ab80-e3e1e1c34677">
+  <Source dwd:design-time-name="b31933c3-b404-4bf7-bc32-648ac75896c6">
     <DataSourceViewID>Cubo Parqueo</DataSourceViewID>
   </Source>
 </Cube>

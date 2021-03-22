@@ -28,8 +28,8 @@
       <FullPath>Dim Vehiculo.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>DimFecha.dim</Name>
-      <FullPath>DimFecha.dim</FullPath>
+      <Name>Dim Fecha.dim</Name>
+      <FullPath>Dim Fecha.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
