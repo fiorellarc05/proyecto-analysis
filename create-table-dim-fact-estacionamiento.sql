@@ -5,7 +5,6 @@ IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[FactE
 DROP TABLE [dbo].[FactEstacionamiento]
 GO
 
-
 SET ANSI_NULLS ON
 GO
 

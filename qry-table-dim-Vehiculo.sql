@@ -5,7 +5,7 @@ use CuboParqueo
 
 use ExamenAnalisis  
 
-	SELECT [ExamenAnalisis].dbo.Vehiculo.Ano, CONVERT(varchar(50),Ano) as EstratoAnoFabricacion,
+	SELECT [ExamenAnalisis].dbo.Vehiculo.IDVehiculo,[ExamenAnalisis].dbo.Vehiculo.Ano, CONVERT(varchar(50),Ano) as EstratoAnoFabricacion,
 	[ExamenAnalisis].dbo.TipoVehiculo.Descripcion as NombreTipoVehiculo,[ExamenAnalisis].dbo.Fabricante.NombreFabricante
 	into CuboParqueo.dbo.DimVehiculo
 	FROM [ExamenAnalisis].dbo.Vehiculo, [ExamenAnalisis].dbo.TipoVehiculo,  [ExamenAnalisis].dbo.Fabricante

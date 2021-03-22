@@ -4,8 +4,10 @@ if
 
 use ExamenAnalisis
   
-	SELECT [ExamenAnalisis].dbo.Distrito.Descripcion as NombreDistrito, 
-	[ExamenAnalisis].dbo.Canton.Descripcion AS NombreCanton,  [ExamenAnalisis].dbo.Provincia.Descripcion as NombreProvincia
+	SELECT [ExamenAnalisis].dbo.Parqueo.IDParqueo,
+	[ExamenAnalisis].dbo.Distrito.Descripcion as NombreDistrito, 
+	[ExamenAnalisis].dbo.Canton.Descripcion as NombreCanton, 
+	CONVERT(varchar(50),Canton.IDProvincia) as Provincia
 	into CuboParqueo.dbo.DimParqueo
-	FROM [ExamenAnalisis].dbo.Distrito, [ExamenAnalisis].dbo.Canton, [ExamenAnalisis].dbo.Provincia
+	FROM [ExamenAnalisis].dbo.Parqueo,[ExamenAnalisis].dbo.Distrito, [ExamenAnalisis].dbo.Canton
 

@@ -12,6 +12,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 
 CREATE TABLE [dbo].[DimVehiculo](
+	[IDVehiculo] [numeric](10, 0) NOT NULL,
 	[Ano] [numeric](10, 0) NULL,
 	[EstratoAnoFabricacion] [varchar](50) NULL,
 	[NombreTipoVehiculo] [varchar](50) NULL,
