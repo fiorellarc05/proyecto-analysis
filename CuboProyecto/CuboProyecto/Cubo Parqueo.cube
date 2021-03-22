@@ -180,108 +180,60 @@
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="180f28ab-f44a-41f5-b080-b4dae81b6451">
+    <Dimension dwd:design-time-name="cb96338f-f3d9-45cc-9834-7c4a2ac793bc">
       <ID>Dim Fecha</ID>
       <Name>Dim Fecha</Name>
       <DimensionID>Dim Fecha</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="cd2d10fe-e9b7-475f-8fd3-d93f803e9a69">
+        <Attribute dwd:design-time-name="d3591b50-ce39-4257-aad9-2baf74a14508">
           <AttributeID>Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8746db4f-0832-42de-9e6c-141cb85414fc">
-          <AttributeID>Year</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="3b28b2d3-3a1f-4e8f-8da8-19123fedbe3e">
+        <Attribute dwd:design-time-name="042326e7-5620-40e9-9244-2f27860786ab">
           <AttributeID>Half Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="41a2efc1-0598-412c-b849-a4caac067263">
+        <Attribute dwd:design-time-name="f71bbae0-7596-4b90-923e-6784f6b84ad9">
           <AttributeID>Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8958ba3e-e9c4-4757-af51-1b4f92156b61">
-          <AttributeID>Trimester</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="968ab2d2-3aea-4f62-9484-a60a939ee65e">
+        <Attribute dwd:design-time-name="473f4da2-d94f-4c8a-a296-11873e0faf07">
           <AttributeID>Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8a8ddf2d-cbec-4253-9961-875cca6b9e41">
+        <Attribute dwd:design-time-name="a9f7e485-d7a5-400f-82b0-b4b08922444f">
           <AttributeID>Ten Days</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="4e4ab3e7-d8b4-49af-983d-47f495b0c573">
-          <AttributeID>Week</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="fdd025e8-984e-4c3b-97d1-7bfefe1e83eb">
-          <AttributeID>Day Of Year</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="858a4ede-5a4b-4db5-bb4b-3defa51e3c3f">
+        <Attribute dwd:design-time-name="2ad70e9c-bb4f-44c0-b156-a3e4615fb8a6">
           <AttributeID>Day Of Half Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="0d937b37-1a58-4059-b70e-678fbe6fcfc7">
-          <AttributeID>Day Of Trimester</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="e1c72809-4fa5-4cd8-a4a0-8522b89a5e93">
+        <Attribute dwd:design-time-name="e4eb115a-8497-4eb6-ac9f-6dacc2b12308">
           <AttributeID>Day Of Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f7a6a4a7-c7d0-467b-b313-39d14209c40c">
+        <Attribute dwd:design-time-name="b55708b0-03a3-42da-bcfb-f76f9b5f742e">
           <AttributeID>Day Of Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f21d71cd-610d-4d77-9a64-4093cff19fc3">
+        <Attribute dwd:design-time-name="c243d843-737b-43f6-a132-670435423fcc">
           <AttributeID>Day Of Ten Days</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="7aab1acf-5f7d-4175-b47f-cd49b07a39ec">
-          <AttributeID>Day Of Week</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="dc7930c3-0ab8-4883-8702-407021ed7e99">
-          <AttributeID>Week Of Year</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="776203e3-d1d2-4a0d-b10f-980f94ab335f">
-          <AttributeID>Ten Days Of Year</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="ec5dbfbc-1bde-4443-8ee8-d592d4d77269">
+        <Attribute dwd:design-time-name="b696cb6a-fd68-459e-9c3c-cac8a9bd49a3">
           <AttributeID>Ten Days Of Half Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f3b44181-d8fb-40ad-9735-81c6f0317326">
-          <AttributeID>Ten Days Of Trimester</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="4104760e-e8eb-4102-8d86-3f906cbe0cd1">
+        <Attribute dwd:design-time-name="736c66b8-1d1d-4dc3-be33-ecdd89e14a5f">
           <AttributeID>Ten Days Of Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1bcf0769-a98c-4b43-9b46-40ceb6dfa94b">
+        <Attribute dwd:design-time-name="540cbb01-af44-4ac8-9f1e-bf891904d3be">
           <AttributeID>Ten Days Of Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="67209bb7-b236-43d4-a825-fc497b4fa1ad">
-          <AttributeID>Month Of Year</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="551f21cd-1efc-4d2b-b268-af5c3b2c90f7">
+        <Attribute dwd:design-time-name="585965ce-fcf6-4f10-8c48-a10f63ceebfc">
           <AttributeID>Month Of Half Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1901b9f3-a701-4b9f-90f8-03a8e83f0c3c">
-          <AttributeID>Month Of Trimester</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="17b4301d-0625-4b85-990a-809f7f1a8238">
+        <Attribute dwd:design-time-name="71dd945d-92a2-4770-b45c-e6faa922b602">
           <AttributeID>Month Of Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="559fe118-6b9d-421b-8300-0ff8392622f8">
-          <AttributeID>Quarter Of Year</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="0281a216-aec4-4008-b64f-82aea888ffeb">
+        <Attribute dwd:design-time-name="667b82d0-8950-44f3-a9e4-2395b1f9b43e">
           <AttributeID>Quarter Of Half Year</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="0dbd83f1-0ca1-4c59-b7bf-c6f4ffc3b1a4">
-          <AttributeID>Trimester Of Year</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="76b4547b-46a0-4742-8984-3b87c25f3d93">
-          <AttributeID>Half Year Of Year</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="7ad7154f-e8a7-4b92-bb91-00d6562c87f1">
-          <HierarchyID>Year -  Half Year -  Quarter -  Month -  Ten Days -  Date</HierarchyID>
-        </Hierarchy>
-        <Hierarchy dwd:design-time-name="dced5762-caf0-4312-9810-079d60be53d3">
-          <HierarchyID>Year -  Trimester -  Month -  Ten Days -  Date</HierarchyID>
-        </Hierarchy>
-        <Hierarchy dwd:design-time-name="bd1cc090-7290-435f-81d2-8e43deaf8160">
-          <HierarchyID>Year -  Week -  Date</HierarchyID>
+        <Hierarchy dwd:design-time-name="de487d3b-5e40-4dcd-9a37-00f723197a42">
+          <HierarchyID>Half Year -  Quarter -  Month -  Ten Days -  Date</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
@@ -491,15 +443,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="dcc1ca57-c893-491f-8d32-c7f76534738b">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b3322fed-bd12-4097-b7ab-1882d29389a9">
           <CubeDimensionID>Dim Fecha</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="b09114a8-3365-461a-898c-9fa5433ccc45">
+            <Attribute dwd:design-time-name="7ca9fee9-0c88-4675-a783-abb66af4fae5">
               <AttributeID>Date</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="50f4582b-4248-4f46-b217-4e0ec753fc79">
+                <KeyColumn dwd:design-time-name="d8dec713-c667-4556-8f35-b31c7fb86ab9">
                   <DataType>Date</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fd44cf1a-ff54-404c-bf23-9322b43bda98">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="07a50e81-ea11-4335-96c6-89c320800077">
                     <TableID>dbo_FactEstacionamiento</TableID>
                     <ColumnID>FechaHoraIngreso</ColumnID>
                   </Source>
