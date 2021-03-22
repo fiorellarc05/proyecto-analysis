@@ -1,4 +1,3 @@
-/*Estratos*/
 USE [CuboParqueo]
 GO
 
@@ -23,6 +22,8 @@ create table ParqueoEstratos
 );
 
 begin tran
+
+	/*Año de fabricacion*/
 	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
 		(1, 'AnoFabricacion', 1, 1984, 'Antes de 1985');
 	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
@@ -33,18 +34,10 @@ begin tran
 		(4, 'AnoFabricacion', 2003, 2009, 'De 2003 a antes de 2010');
 	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
 		(5, 'AnoFabricacion', 2010, 99999999999, 'De 2010 en adelante');
+
+	/*Cantidad de minutos*/
 	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
-		(100, 'DiaRestriccion', 0, 3, 'Lunes: Placas 0 a 3');
-	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
-		(200, 'DiaRestriccion', 0, 3, 'Martes: Placas 4 a 7');
-	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
-		(300, 'DiaRestriccion', 8, 1, 'Miércoles: Placas 8 a 1');
-	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
-		(400, 'DiaRestriccion', 2, 5, 'Jueves: Placas 2 a 5');
-	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
-		(500, 'DiaRestriccion', 6, 9, 'Viernes: Placas 6 a 9');
-	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
-		(1100, 'CantMinutos', -999999999, 0, 'Inválido: valor negativo');
+		(1100, 'CantMinutos', -999999999, 0, 'Inválido valor negativo');
 	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
 		(1200, 'CantMinutos', 0, 29, 'De 0 a menos de 30 minutos');
 	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
@@ -55,28 +48,34 @@ begin tran
 		(1500, 'CantMinutos', 245, 599, 'De 245 a menos de 600 minutos');
 	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
 		(1600, 'CantMinutos', 600, 99999999999, 'Más de 600 minutos');
+
+	/*Hora de Ingreso*/
 	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
-		(11100, 'HoraEntrada', 12, 4.59, 'Madrugada:  de las 12 am hasta antes de las 5 am.');
+		(11100, 'HoraEntrada', 0, 5, 'Madrugada:  12 am hasta antes de las 5 am.');
 	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
-		(11200, 'HoraEntrada', 5, 11.59, 'Mañana:  de las 5 am hasta  las 12 pm.');
+		(11200, 'HoraEntrada', 5, 12, 'Mañana:  desde las 5 am hasta antes de las 12 pm.');
 	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
-		(11300, 'HoraEntrada', 12, 13.59, 'Mediodia: de las 12 hasta las 2 pm.');
+		(11300, 'HoraEntrada', 12, 14, 'Mediodía: desde las 12 hasta antes de las 2 pm.');
 	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
-		(11400, 'HoraEntrada', 14, 16.59, 'Tarde:  de las 2 pm hasta antes de las 7 pm.');
+		(11400, 'HoraEntrada', 14, 17, 'Tarde: desde las 2 pm hasta antes de las 7 pm.');
 	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
-		(11500, 'HoraEntrada', 17, 23.59, 'Noche:  de las 7 pm hasta antes de las 12 am.');
-		insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
-		(511100, 'HoraSalida', 12, 4.59, 'Madrugada:  de las 12 am hasta antes de las 5 am.');
+		(11500, 'HoraEntrada', 17, 24, 'Noche: desde las 7 pm hasta antes de las 12 am.');
+
+	/*Hora de Salida*/
 	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
-		(511200, 'HoraSalida', 5, 11.59, 'Mañana:  de las 5 am hasta antes de las 12 pm.');
+		(511100, 'HoraSalida', 0, 5, 'Madrugada: 12 am hasta antes de las 5 am.');
 	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
-		(511300, 'HoraSalida', 12, 13.59, 'Mediodía de las 12 hasta antes de las 2 pm.');
+		(511200, 'HoraSalida', 5, 12, 'Mañana: desde las 5 am hasta antes de las 12 pm.');
 	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
-		(511400, 'HoraSalida', 14, 16.59, 'Tarde:  de las 2 pm hasta antes de las 7 pm.');
+		(511300, 'HoraSalida', 12, 14, 'Mediodía: desde las 12 hasta antes de las 2 pm.');
 	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
-		(511500, 'HoraSalida', 17, 23.59, 'Noche:  de las 7 pm hasta antes de las 12 am.');
+		(511400, 'HoraSalida', 14, 17, 'Tarde: desde las 2 pm hasta antes de las 7 pm.');
 	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
-		(111100, 'Ganancia', -99999999999, 0, 'Inválido: valor negativo');
+		(511500, 'HoraSalida', 17, 24, 'Noche: desde las 7 pm hasta antes de las 12 am.');
+
+	/*Ganancia*/
+	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
+		(111100, 'Ganancia', -99999999999, 0, 'Inválido valor negativo');
 	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
 		(111200, 'Ganancia', 0, 999, 'De 0 a menos de 1000 colones');
 	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
@@ -87,4 +86,5 @@ begin tran
 		(111500, 'Ganancia', 7500, 9999, 'De 7500 a menos de 10000 colones');
 	insert into ParqueoEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
 		(111600, 'Ganancia', 10000, 99999999999, 'Más de 10000 colones');
+
 commit;
