@@ -472,19 +472,9 @@
               <Name>Ten Days</Name>
             </AttributeRelationship>
             <AttributeRelationship>
-              <AttributeID>Ten Days Of Year</AttributeID>
-              <RelationshipType>Rigid</RelationshipType>
-              <Name>Ten Days Of Year</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
               <AttributeID>Ten Days Of Half Year</AttributeID>
               <RelationshipType>Rigid</RelationshipType>
               <Name>Ten Days Of Half Year</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Ten Days Of Trimester</AttributeID>
-              <RelationshipType>Rigid</RelationshipType>
-              <Name>Ten Days Of Trimester</Name>
             </AttributeRelationship>
             <AttributeRelationship>
               <AttributeID>Ten Days Of Quarter</AttributeID>
@@ -497,26 +487,8 @@
               <Name>Ten Days Of Month</Name>
             </AttributeRelationship>
             <AttributeRelationship>
-              <AttributeID>Week</AttributeID>
-              <RelationshipType>Rigid</RelationshipType>
-              <Name>Week</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Week Of Year</AttributeID>
-              <RelationshipType>Rigid</RelationshipType>
-              <Name>Week Of Year</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Day Of Year</AttributeID>
-              <Name>Day Of Year</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
               <AttributeID>Day Of Half Year</AttributeID>
               <Name>Day Of Half Year</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Day Of Trimester</AttributeID>
-              <Name>Day Of Trimester</Name>
             </AttributeRelationship>
             <AttributeRelationship>
               <AttributeID>Day Of Quarter</AttributeID>
@@ -530,28 +502,7 @@
               <AttributeID>Day Of Ten Days</AttributeID>
               <Name>Day Of Ten Days</Name>
             </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Day Of Week</AttributeID>
-              <Name>Day Of Week</Name>
-            </AttributeRelationship>
           </AttributeRelationships>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Year</ID>
-          <Name>Year</Name>
-          <Type>Years</Type>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Date</DataType>
-              <Source xsi:type="TimeAttributeBinding" />
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-          </NameColumn>
           <OrderBy>Key</OrderBy>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -569,13 +520,6 @@
           <NameColumn>
             <DataType>WChar</DataType>
           </NameColumn>
-          <AttributeRelationships>
-            <AttributeRelationship>
-              <AttributeID>Year</AttributeID>
-              <RelationshipType>Rigid</RelationshipType>
-              <Name>Year</Name>
-            </AttributeRelationship>
-          </AttributeRelationships>
           <OrderBy>Key</OrderBy>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -598,35 +542,6 @@
               <AttributeID>Half Year</AttributeID>
               <RelationshipType>Rigid</RelationshipType>
               <Name>Half Year</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Half Year Of Year</AttributeID>
-              <RelationshipType>Rigid</RelationshipType>
-              <Name>Half Year Of Year</Name>
-            </AttributeRelationship>
-          </AttributeRelationships>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Trimester</ID>
-          <Name>Trimester</Name>
-          <Type>Trimesters</Type>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Date</DataType>
-              <Source xsi:type="TimeAttributeBinding" />
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-          </NameColumn>
-          <AttributeRelationships>
-            <AttributeRelationship>
-              <AttributeID>Year</AttributeID>
-              <RelationshipType>Rigid</RelationshipType>
-              <Name>Year</Name>
             </AttributeRelationship>
           </AttributeRelationships>
           <OrderBy>Key</OrderBy>
@@ -653,24 +568,9 @@
               <Name>Quarter</Name>
             </AttributeRelationship>
             <AttributeRelationship>
-              <AttributeID>Quarter Of Year</AttributeID>
-              <RelationshipType>Rigid</RelationshipType>
-              <Name>Quarter Of Year</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
               <AttributeID>Quarter Of Half Year</AttributeID>
               <RelationshipType>Rigid</RelationshipType>
               <Name>Quarter Of Half Year</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Trimester</AttributeID>
-              <RelationshipType>Rigid</RelationshipType>
-              <Name>Trimester</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Trimester Of Year</AttributeID>
-              <RelationshipType>Rigid</RelationshipType>
-              <Name>Trimester Of Year</Name>
             </AttributeRelationship>
           </AttributeRelationships>
           <OrderBy>Key</OrderBy>
@@ -697,19 +597,9 @@
               <Name>Month</Name>
             </AttributeRelationship>
             <AttributeRelationship>
-              <AttributeID>Month Of Year</AttributeID>
-              <RelationshipType>Rigid</RelationshipType>
-              <Name>Month Of Year</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
               <AttributeID>Month Of Half Year</AttributeID>
               <RelationshipType>Rigid</RelationshipType>
               <Name>Month Of Half Year</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Month Of Trimester</AttributeID>
-              <RelationshipType>Rigid</RelationshipType>
-              <Name>Month Of Trimester</Name>
             </AttributeRelationship>
             <AttributeRelationship>
               <AttributeID>Month Of Quarter</AttributeID>
@@ -722,67 +612,9 @@
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
         <Attribute>
-          <ID>Week</ID>
-          <Name>Week</Name>
-          <Type>Weeks</Type>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Date</DataType>
-              <Source xsi:type="TimeAttributeBinding" />
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-          </NameColumn>
-          <AttributeRelationships>
-            <AttributeRelationship>
-              <AttributeID>Year</AttributeID>
-              <RelationshipType>Rigid</RelationshipType>
-              <Name>Year</Name>
-            </AttributeRelationship>
-          </AttributeRelationships>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Day Of Year</ID>
-          <Name>Day Of Year</Name>
-          <Type>DayOfYear</Type>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="TimeAttributeBinding" />
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-          </NameColumn>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
           <ID>Day Of Half Year</ID>
           <Name>Day Of Half Year</Name>
           <Type>DayOfHalfYear</Type>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="TimeAttributeBinding" />
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-          </NameColumn>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Day Of Trimester</ID>
-          <Name>Day Of Trimester</Name>
-          <Type>DayOfTrimester</Type>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -848,77 +680,9 @@
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
         <Attribute>
-          <ID>Day Of Week</ID>
-          <Name>Day Of Week</Name>
-          <Type>DayOfWeek</Type>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="TimeAttributeBinding" />
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-          </NameColumn>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Week Of Year</ID>
-          <Name>Week Of Year</Name>
-          <Type>WeekOfYear</Type>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="TimeAttributeBinding" />
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-          </NameColumn>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Ten Days Of Year</ID>
-          <Name>Ten Days Of Year</Name>
-          <Type>TenDayOfYear</Type>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="TimeAttributeBinding" />
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-          </NameColumn>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
           <ID>Ten Days Of Half Year</ID>
           <Name>Ten Days Of Half Year</Name>
           <Type>TenDayOfHalfYear</Type>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="TimeAttributeBinding" />
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-          </NameColumn>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Ten Days Of Trimester</ID>
-          <Name>Ten Days Of Trimester</Name>
-          <Type>TenDayOfTrimester</Type>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -967,43 +731,9 @@
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
         <Attribute>
-          <ID>Month Of Year</ID>
-          <Name>Month Of Year</Name>
-          <Type>MonthOfYear</Type>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="TimeAttributeBinding" />
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-          </NameColumn>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
           <ID>Month Of Half Year</ID>
           <Name>Month Of Half Year</Name>
           <Type>MonthOfHalfYear</Type>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="TimeAttributeBinding" />
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-          </NameColumn>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Month Of Trimester</ID>
-          <Name>Month Of Trimester</Name>
-          <Type>MonthOfTrimester</Type>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -1035,23 +765,6 @@
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
         <Attribute>
-          <ID>Quarter Of Year</ID>
-          <Name>Quarter Of Year</Name>
-          <Type>QuarterOfYear</Type>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="TimeAttributeBinding" />
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-          </NameColumn>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
           <ID>Quarter Of Half Year</ID>
           <Name>Quarter Of Half Year</Name>
           <Type>QuarterOfHalfYear</Type>
@@ -1068,51 +781,12 @@
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
-        <Attribute>
-          <ID>Trimester Of Year</ID>
-          <Name>Trimester Of Year</Name>
-          <Type>TrimesterOfYear</Type>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="TimeAttributeBinding" />
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-          </NameColumn>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Half Year Of Year</ID>
-          <Name>Half Year Of Year</Name>
-          <Type>HalfYearOfYear</Type>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="TimeAttributeBinding" />
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-          </NameColumn>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
       </Attributes>
       <Hierarchies>
         <Hierarchy>
-          <ID>Year -  Half Year -  Quarter -  Month -  Ten Days -  Date</ID>
-          <Name>Year -  Half Year -  Quarter -  Month -  Ten Days -  Date</Name>
+          <ID>Half Year -  Quarter -  Month -  Ten Days -  Date</ID>
+          <Name>Half Year -  Quarter -  Month -  Ten Days -  Date</Name>
           <Levels>
-            <Level>
-              <ID>Year</ID>
-              <Name>Year</Name>
-              <SourceAttributeID>Year</SourceAttributeID>
-            </Level>
             <Level>
               <ID>Half Year</ID>
               <Name>Half Year</Name>
@@ -1132,58 +806,6 @@
               <ID>Ten Days</ID>
               <Name>Ten Days</Name>
               <SourceAttributeID>Ten Days</SourceAttributeID>
-            </Level>
-            <Level>
-              <ID>Date</ID>
-              <Name>Date</Name>
-              <SourceAttributeID>Date</SourceAttributeID>
-            </Level>
-          </Levels>
-        </Hierarchy>
-        <Hierarchy>
-          <ID>Year -  Trimester -  Month -  Ten Days -  Date</ID>
-          <Name>Year -  Trimester -  Month -  Ten Days -  Date</Name>
-          <Levels>
-            <Level>
-              <ID>Year</ID>
-              <Name>Year</Name>
-              <SourceAttributeID>Year</SourceAttributeID>
-            </Level>
-            <Level>
-              <ID>Trimester</ID>
-              <Name>Trimester</Name>
-              <SourceAttributeID>Trimester</SourceAttributeID>
-            </Level>
-            <Level>
-              <ID>Month</ID>
-              <Name>Month</Name>
-              <SourceAttributeID>Month</SourceAttributeID>
-            </Level>
-            <Level>
-              <ID>Ten Days</ID>
-              <Name>Ten Days</Name>
-              <SourceAttributeID>Ten Days</SourceAttributeID>
-            </Level>
-            <Level>
-              <ID>Date</ID>
-              <Name>Date</Name>
-              <SourceAttributeID>Date</SourceAttributeID>
-            </Level>
-          </Levels>
-        </Hierarchy>
-        <Hierarchy>
-          <ID>Year -  Week -  Date</ID>
-          <Name>Year -  Week -  Date</Name>
-          <Levels>
-            <Level>
-              <ID>Year</ID>
-              <Name>Year</Name>
-              <SourceAttributeID>Year</SourceAttributeID>
-            </Level>
-            <Level>
-              <ID>Week</ID>
-              <Name>Week</Name>
-              <SourceAttributeID>Week</SourceAttributeID>
             </Level>
             <Level>
               <ID>Date</ID>
@@ -1388,16 +1010,10 @@
               <AttributeID>Date</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Year</AttributeID>
-            </Attribute>
-            <Attribute>
               <AttributeID>Half Year</AttributeID>
             </Attribute>
             <Attribute>
               <AttributeID>Quarter</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Trimester</AttributeID>
             </Attribute>
             <Attribute>
               <AttributeID>Month</AttributeID>
@@ -1406,16 +1022,7 @@
               <AttributeID>Ten Days</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Week</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Day Of Year</AttributeID>
-            </Attribute>
-            <Attribute>
               <AttributeID>Day Of Half Year</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Day Of Trimester</AttributeID>
             </Attribute>
             <Attribute>
               <AttributeID>Day Of Quarter</AttributeID>
@@ -1427,19 +1034,7 @@
               <AttributeID>Day Of Ten Days</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Day Of Week</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Week Of Year</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Ten Days Of Year</AttributeID>
-            </Attribute>
-            <Attribute>
               <AttributeID>Ten Days Of Half Year</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Ten Days Of Trimester</AttributeID>
             </Attribute>
             <Attribute>
               <AttributeID>Ten Days Of Quarter</AttributeID>
@@ -1448,39 +1043,18 @@
               <AttributeID>Ten Days Of Month</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Month Of Year</AttributeID>
-            </Attribute>
-            <Attribute>
               <AttributeID>Month Of Half Year</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Month Of Trimester</AttributeID>
             </Attribute>
             <Attribute>
               <AttributeID>Month Of Quarter</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Quarter Of Year</AttributeID>
-            </Attribute>
-            <Attribute>
               <AttributeID>Quarter Of Half Year</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Trimester Of Year</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Half Year Of Year</AttributeID>
             </Attribute>
           </Attributes>
           <Hierarchies>
             <Hierarchy>
-              <HierarchyID>Year -  Half Year -  Quarter -  Month -  Ten Days -  Date</HierarchyID>
-            </Hierarchy>
-            <Hierarchy>
-              <HierarchyID>Year -  Trimester -  Month -  Ten Days -  Date</HierarchyID>
-            </Hierarchy>
-            <Hierarchy>
-              <HierarchyID>Year -  Week -  Date</HierarchyID>
+              <HierarchyID>Half Year -  Quarter -  Month -  Ten Days -  Date</HierarchyID>
             </Hierarchy>
           </Hierarchies>
         </Dimension>

@@ -180,60 +180,60 @@
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="cb96338f-f3d9-45cc-9834-7c4a2ac793bc">
+    <Dimension dwd:design-time-name="c4d04ef0-dc56-46b9-b93f-dd612a5f020f">
       <ID>Dim Fecha</ID>
       <Name>Dim Fecha</Name>
       <DimensionID>Dim Fecha</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="d3591b50-ce39-4257-aad9-2baf74a14508">
+        <Attribute dwd:design-time-name="45a48edc-b7e1-4cfc-9776-94ae45e39676">
           <AttributeID>Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="042326e7-5620-40e9-9244-2f27860786ab">
-          <AttributeID>Half Year</AttributeID>
+        <Attribute dwd:design-time-name="bc89dee6-7827-4b47-a111-78d1a7daab4c">
+          <AttributeID>Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f71bbae0-7596-4b90-923e-6784f6b84ad9">
+        <Attribute dwd:design-time-name="71d3d191-5c58-4394-81b0-d0dfd98f093f">
           <AttributeID>Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="473f4da2-d94f-4c8a-a296-11873e0faf07">
+        <Attribute dwd:design-time-name="efe04a00-672f-4d25-96d3-9de5ff507ad8">
           <AttributeID>Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a9f7e485-d7a5-400f-82b0-b4b08922444f">
+        <Attribute dwd:design-time-name="b6ec3f0c-33ae-4db6-90fe-caa57d4e4e0c">
           <AttributeID>Ten Days</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="2ad70e9c-bb4f-44c0-b156-a3e4615fb8a6">
-          <AttributeID>Day Of Half Year</AttributeID>
+        <Attribute dwd:design-time-name="0a30bf74-dae0-4590-acb5-eaa61961b93f">
+          <AttributeID>Day Of Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="e4eb115a-8497-4eb6-ac9f-6dacc2b12308">
+        <Attribute dwd:design-time-name="e47f060c-ebdc-435c-be5b-968891b49630">
           <AttributeID>Day Of Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b55708b0-03a3-42da-bcfb-f76f9b5f742e">
+        <Attribute dwd:design-time-name="3ff382e7-9e95-440e-b7ef-d283b56a7355">
           <AttributeID>Day Of Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c243d843-737b-43f6-a132-670435423fcc">
+        <Attribute dwd:design-time-name="4aa185fa-e77c-45d8-a298-50d43d1ca4bf">
           <AttributeID>Day Of Ten Days</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b696cb6a-fd68-459e-9c3c-cac8a9bd49a3">
-          <AttributeID>Ten Days Of Half Year</AttributeID>
+        <Attribute dwd:design-time-name="2b2e2a91-adae-4830-b4dd-a494b7822056">
+          <AttributeID>Ten Days Of Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="736c66b8-1d1d-4dc3-be33-ecdd89e14a5f">
+        <Attribute dwd:design-time-name="92524d2a-1220-4645-aaf8-3dc388ee88a9">
           <AttributeID>Ten Days Of Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="540cbb01-af44-4ac8-9f1e-bf891904d3be">
+        <Attribute dwd:design-time-name="d4e78616-54d6-47d5-a454-03788a9d628e">
           <AttributeID>Ten Days Of Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="585965ce-fcf6-4f10-8c48-a10f63ceebfc">
-          <AttributeID>Month Of Half Year</AttributeID>
+        <Attribute dwd:design-time-name="e77ee401-22a9-4770-a3e0-83412032410c">
+          <AttributeID>Month Of Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="71dd945d-92a2-4770-b45c-e6faa922b602">
+        <Attribute dwd:design-time-name="448ac487-29c8-4849-9071-1c5b12c7e8c4">
           <AttributeID>Month Of Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="667b82d0-8950-44f3-a9e4-2395b1f9b43e">
-          <AttributeID>Quarter Of Half Year</AttributeID>
+        <Attribute dwd:design-time-name="7cc6311c-71f0-4a81-9bd7-cefa2648e454">
+          <AttributeID>Quarter Of Year</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="de487d3b-5e40-4dcd-9a37-00f723197a42">
-          <HierarchyID>Half Year -  Quarter -  Month -  Ten Days -  Date</HierarchyID>
+        <Hierarchy dwd:design-time-name="df3ddccc-810b-468d-9507-2467e70546e0">
+          <HierarchyID>Year -  Quarter -  Month -  Ten Days -  Date</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
@@ -443,15 +443,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b3322fed-bd12-4097-b7ab-1882d29389a9">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="fa3b3e72-3b3f-422c-999b-7a1eadc583f3">
           <CubeDimensionID>Dim Fecha</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="7ca9fee9-0c88-4675-a783-abb66af4fae5">
+            <Attribute dwd:design-time-name="5cee89a8-f33f-4104-9123-1ea84350c314">
               <AttributeID>Date</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="d8dec713-c667-4556-8f35-b31c7fb86ab9">
+                <KeyColumn dwd:design-time-name="ed3baf58-7347-4f20-b54b-0e7a5045858d">
                   <DataType>Date</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="07a50e81-ea11-4335-96c6-89c320800077">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d2f6cd86-9cf5-4101-a047-a11eda43af0e">
                     <TableID>dbo_FactEstacionamiento</TableID>
                     <ColumnID>FechaHoraIngreso</ColumnID>
                   </Source>
