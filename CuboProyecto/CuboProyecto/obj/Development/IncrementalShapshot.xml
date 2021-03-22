@@ -47,14 +47,14 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>U7JxJUAcbUZjedyo1kZ8FUXhot0=3/22/2021 9:06:09 PM3/22/2021 9:05:23 PM</TimeStamp>
+        <TimeStamp>LtcDb/zOzwVmMUML70Cjy1rbcKk=3/22/2021 9:10:06 PM3/22/2021 9:09:48 PM</TimeStamp>
         <ID>
           <String>Dim Fecha</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>OWI6UivIGjm74Oi1C7X+tOnztFw=3/22/2021 9:07:23 PM3/22/2021 12:30:24 AMG4xrx00pim7vp/zxwZlpafkoV6w=3/22/2021 12:43:03 AM3/22/2021 12:30:24 AM</TimeStamp>
+        <TimeStamp>APsPdbRE6SSTyJAHCUFaq7PLIUw=3/22/2021 9:11:16 PM3/22/2021 12:30:24 AMG4xrx00pim7vp/zxwZlpafkoV6w=3/22/2021 12:43:03 AM3/22/2021 12:30:24 AM</TimeStamp>
         <ID>
           <String>Cubo Parqueo</String>
         </ID>
@@ -71,5 +71,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2021-03-22T21:08:22.383333Z</LastDeployed>
+  <LastDeployed>2021-03-22T21:11:56.466667Z</LastDeployed>
 </DeploymentSnapshot>

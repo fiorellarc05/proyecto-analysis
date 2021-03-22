@@ -472,9 +472,9 @@
               <Name>Ten Days</Name>
             </AttributeRelationship>
             <AttributeRelationship>
-              <AttributeID>Ten Days Of Half Year</AttributeID>
+              <AttributeID>Ten Days Of Year</AttributeID>
               <RelationshipType>Rigid</RelationshipType>
-              <Name>Ten Days Of Half Year</Name>
+              <Name>Ten Days Of Year</Name>
             </AttributeRelationship>
             <AttributeRelationship>
               <AttributeID>Ten Days Of Quarter</AttributeID>
@@ -487,8 +487,8 @@
               <Name>Ten Days Of Month</Name>
             </AttributeRelationship>
             <AttributeRelationship>
-              <AttributeID>Day Of Half Year</AttributeID>
-              <Name>Day Of Half Year</Name>
+              <AttributeID>Day Of Year</AttributeID>
+              <Name>Day Of Year</Name>
             </AttributeRelationship>
             <AttributeRelationship>
               <AttributeID>Day Of Quarter</AttributeID>
@@ -508,9 +508,9 @@
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
         <Attribute>
-          <ID>Half Year</ID>
-          <Name>Half Year</Name>
-          <Type>HalfYears</Type>
+          <ID>Year</ID>
+          <Name>Year</Name>
+          <Type>Years</Type>
           <KeyColumns>
             <KeyColumn>
               <DataType>Date</DataType>
@@ -539,9 +539,9 @@
           </NameColumn>
           <AttributeRelationships>
             <AttributeRelationship>
-              <AttributeID>Half Year</AttributeID>
+              <AttributeID>Year</AttributeID>
               <RelationshipType>Rigid</RelationshipType>
-              <Name>Half Year</Name>
+              <Name>Year</Name>
             </AttributeRelationship>
           </AttributeRelationships>
           <OrderBy>Key</OrderBy>
@@ -568,9 +568,9 @@
               <Name>Quarter</Name>
             </AttributeRelationship>
             <AttributeRelationship>
-              <AttributeID>Quarter Of Half Year</AttributeID>
+              <AttributeID>Quarter Of Year</AttributeID>
               <RelationshipType>Rigid</RelationshipType>
-              <Name>Quarter Of Half Year</Name>
+              <Name>Quarter Of Year</Name>
             </AttributeRelationship>
           </AttributeRelationships>
           <OrderBy>Key</OrderBy>
@@ -597,9 +597,9 @@
               <Name>Month</Name>
             </AttributeRelationship>
             <AttributeRelationship>
-              <AttributeID>Month Of Half Year</AttributeID>
+              <AttributeID>Month Of Year</AttributeID>
               <RelationshipType>Rigid</RelationshipType>
-              <Name>Month Of Half Year</Name>
+              <Name>Month Of Year</Name>
             </AttributeRelationship>
             <AttributeRelationship>
               <AttributeID>Month Of Quarter</AttributeID>
@@ -612,9 +612,9 @@
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
         <Attribute>
-          <ID>Day Of Half Year</ID>
-          <Name>Day Of Half Year</Name>
-          <Type>DayOfHalfYear</Type>
+          <ID>Day Of Year</ID>
+          <Name>Day Of Year</Name>
+          <Type>DayOfYear</Type>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -680,9 +680,9 @@
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
         <Attribute>
-          <ID>Ten Days Of Half Year</ID>
-          <Name>Ten Days Of Half Year</Name>
-          <Type>TenDayOfHalfYear</Type>
+          <ID>Ten Days Of Year</ID>
+          <Name>Ten Days Of Year</Name>
+          <Type>TenDayOfYear</Type>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -731,9 +731,9 @@
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
         <Attribute>
-          <ID>Month Of Half Year</ID>
-          <Name>Month Of Half Year</Name>
-          <Type>MonthOfHalfYear</Type>
+          <ID>Month Of Year</ID>
+          <Name>Month Of Year</Name>
+          <Type>MonthOfYear</Type>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -765,9 +765,9 @@
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
         <Attribute>
-          <ID>Quarter Of Half Year</ID>
-          <Name>Quarter Of Half Year</Name>
-          <Type>QuarterOfHalfYear</Type>
+          <ID>Quarter Of Year</ID>
+          <Name>Quarter Of Year</Name>
+          <Type>QuarterOfYear</Type>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -784,13 +784,13 @@
       </Attributes>
       <Hierarchies>
         <Hierarchy>
-          <ID>Half Year -  Quarter -  Month -  Ten Days -  Date</ID>
-          <Name>Half Year -  Quarter -  Month -  Ten Days -  Date</Name>
+          <ID>Year -  Quarter -  Month -  Ten Days -  Date</ID>
+          <Name>Year -  Quarter -  Month -  Ten Days -  Date</Name>
           <Levels>
             <Level>
-              <ID>Half Year</ID>
-              <Name>Half Year</Name>
-              <SourceAttributeID>Half Year</SourceAttributeID>
+              <ID>Year</ID>
+              <Name>Year</Name>
+              <SourceAttributeID>Year</SourceAttributeID>
             </Level>
             <Level>
               <ID>Quarter</ID>
@@ -1010,7 +1010,7 @@
               <AttributeID>Date</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Half Year</AttributeID>
+              <AttributeID>Year</AttributeID>
             </Attribute>
             <Attribute>
               <AttributeID>Quarter</AttributeID>
@@ -1022,7 +1022,7 @@
               <AttributeID>Ten Days</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Day Of Half Year</AttributeID>
+              <AttributeID>Day Of Year</AttributeID>
             </Attribute>
             <Attribute>
               <AttributeID>Day Of Quarter</AttributeID>
@@ -1034,7 +1034,7 @@
               <AttributeID>Day Of Ten Days</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Ten Days Of Half Year</AttributeID>
+              <AttributeID>Ten Days Of Year</AttributeID>
             </Attribute>
             <Attribute>
               <AttributeID>Ten Days Of Quarter</AttributeID>
@@ -1043,18 +1043,18 @@
               <AttributeID>Ten Days Of Month</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Month Of Half Year</AttributeID>
+              <AttributeID>Month Of Year</AttributeID>
             </Attribute>
             <Attribute>
               <AttributeID>Month Of Quarter</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Quarter Of Half Year</AttributeID>
+              <AttributeID>Quarter Of Year</AttributeID>
             </Attribute>
           </Attributes>
           <Hierarchies>
             <Hierarchy>
-              <HierarchyID>Half Year -  Quarter -  Month -  Ten Days -  Date</HierarchyID>
+              <HierarchyID>Year -  Quarter -  Month -  Ten Days -  Date</HierarchyID>
             </Hierarchy>
           </Hierarchies>
         </Dimension>
